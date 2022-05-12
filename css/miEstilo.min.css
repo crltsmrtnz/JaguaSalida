@@ -266,7 +266,7 @@ input[type=range]::-ms-fill-upper {
 }
 
 .wrapper {
-    width: 60%;
+    width: 100%;
     overflow: hidden
 }
 
@@ -364,6 +364,10 @@ input[type=range]::-ms-fill-upper {
     .perro-background-mobile  {
         width: 330px!important;
     }
+    .wrapper {
+        height: auto;
+    }
+
 }
 .shape {
     height: 530px;

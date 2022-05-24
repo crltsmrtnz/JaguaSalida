@@ -329,17 +329,17 @@ input[type=range]::-ms-fill-upper {
 .cielo,
 .cielo-mobile {
     position: relative;
-    top: 0;
+    bottom: 140px;
     width: 100%;
     z-index: 0
 }
 
 .cielo {
-    height: 530px
+    height: 500px
 }
 
 .cielo-mobile {
-    height: 460px
+    height: 500px
 }
 
 @media (min-width:769px) {
@@ -380,7 +380,7 @@ input[type=range]::-ms-fill-upper {
 }
 
 .shape-mobile {
-    height: 460px;
+    height: 500px;
     width: 100%;
     position: absolute;
     bottom: 0;

@@ -8,7 +8,7 @@ header {
     overflow: hidden
 }
 
-header,
+
 section {
     padding-top: 100px;
     padding-bottom: 100px
@@ -146,7 +146,7 @@ img.logo-perro {
 }
 
 .bg2 {
-    background-color: #f3fafc
+    background-color: #fff
 }
 
 .bg3 {
@@ -948,12 +948,7 @@ a:active {
         padding-top: 25px
     }
 
-    .logo-perro {
-        max-width: 100% !important;
-        position: relative !important;
-        top: 25px !important;
-        right: 0 !important
-    }
+
 
     .Contacto {
         padding: 10px !important;
@@ -1298,8 +1293,20 @@ a:active {
         padding-top: 75px
     }
 }
-
+@media (max-width:990px) {
+    .logo-perro {
+        max-width: 100% !important;
+        position: relative !important;
+        top: 100px !important;
+        right: 0 !important
+    }
+    header {
+    padding-top: 100px;
+    padding-bottom: 100px!important;
+}
+}
 @media (min-width:991px) {
+
     .caja-texto {
         height: 430px
     }

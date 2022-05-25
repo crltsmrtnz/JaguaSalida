@@ -1,0 +1,2618 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"es\">\n  <head>\n      <meta charset=\"utf-8\">\n      <meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">\n     <meta name=\"author\" content=\"Nathalia Espinola\" >\n      <meta name=\"description\" content=\"Nathalia Espinola, trabajo final de grado, carrera de diseño industrial, facultad de arquitectura, \" >\n      <meta name=\"keywords\" content=\"perros abandonados, perros callejeros, enfermedades zoonóticas, sufrimiento animal, mordidas y peleas, refugios de animales, esterilización, castración, costo de una castración, castración preventiva, tratamientos\">\n      <title>\n          JaguaSalida\n      </title>\n      <link href=\"img/perrito.ico\" rel=\"icon\">\n\n      <link href=\"https://fonts.googleapis.com/css?family=Baloo+Tammudu\" rel=\"stylesheet\">\n      <link href=\"https://fonts.googleapis.com/css?family=Open+Sans\" rel=\"stylesheet\">\n\n      <!-- Bootstrap core CSS -->\n      <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n\n      <!-- Custom styles for this template -->\n      <link href=\"css/estilos.css\" rel=\"stylesheet\">\n      <link href=\"css/miEstilo.min.css\" rel=\"stylesheet\">\n  </head>\n\n\n  <body id=\"home\">\n  <div class=\" bg2\">\n    <div id=\"menu\">\n      <nav class=\"navbar navbar-expand-lg navbar-light \">\n        <a class=\"navbar-brand pl-4\" href=\"index.html\" id=\"nav-logo\">\n            <img src=\"img/logo-header.png\"  class=\"img-fluid nav-logo \" alt=\"Logo-JaguaSalida\"> \n        </a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n          <div class=\"bag-menu-img\"></div>\n            <ul class=\"nav navbar-nav ml-auto ul-nav\">\n              <li class=\"nav-item  \">\n                <a class=\"nav-link text-left disabled active\" href=\"index.html\">Problemática <span class=\"sr-only\">(current)</span></a>\n              </li>                 \n              <li class=\"nav-item\">\n                <a class=\"nav-link text-left\" href=\"Esterilizacion.html\">Esterilización</a>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link text-left \" href=\"Mitos.html\">Mitos</a>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link text-left \" href=\"Contacto.html\">Contacto</a>\n              </li>\n            </ul>\n        </div>\n      </nav>       \n    </div>\n  </div>\n\n\n    <div class=\" bg2 mobile-pt\">\n      <!-- Head -->\n      <header class=\"bg2 p-0 header-logo; positin:absolute\">\n          <div style=\"position:relative;z-index: 1\">\n            <img src=\"img/Logo-JaguaSalida.svg\" width=\"250\" height=\"250\" class=\"img-fluid logo\" alt=\"Logo-JaguaSalida\" style=\"z-index:50\">\n\n            <!-- DESKTOP -->\n            <center style=\"margin-top:5.5%; margin-bottom:25px\"\n              class=\"img-fluid logo-perro d-none d-md-block d-lg-none  d-none d-lg-block d-xl-none no-sm d-xl-block\">\n\n              <div class=\"jaguastyle\">\n                <img id=\"jaguacity\" class=\"img-fluid perro-background\" style=\"margin-left:40%\">\n              </div>\n\n              <div class=\"wrapper\">\n                  <div class=\"wrapper\" style=\"position: absolute; margin-left:20%\">\n                    <img src=\"img/cielo.png\" class=\"img-fluid perro-background cielo\">\n                  </div>\n              </div>\n\n              <div class=\"wrapper\" style=\"float:none; margin-left:40%\">\n                  <div class=\"sliding-background\"></div>\n              </div>\n\n              <img src=\"img/Shape.png\" class=\"img-fluid perros shape\">\n            </center>\n            \n            <!-- MOBILE -->\n            <center style=\"margin-top:5.5%; margin-bottom:25px\"\n              class=\"img-fluid logo-perro d-block d-sm-none d-none d-sm-block no-md\">\n              \n              <div class=\"jaguastyle-mobile\">\n                <img id=\"jaguacity2\" class=\"img-fluid perro-background-mobile\">\n              </div>\n              \n              <img src=\"img/ShapeMobile.png\" class=\"img-fluid shape-mobile\">\n              \n              <div class=\"wrapper-mobile\">\n                  <div class=\"wrapper-mobile\" style=\"position: absolute;\">\n                    <img src=\"img/cielo.png\" class=\"img-fluid perro-background-mobile cielo-mobile\">\n                  </div>\n              </div>\n\n              <div class=\"wrapper-mobile\" style=\"float:none;\">\n                  <div class=\"sliding-background-mobile\"></div>\n              </div>\n              \n            </center>\n          </div>\n      </header>\n      <div class=\"clearfix\"></div>\n    </div>\n\n\n\n\n    \n    <!-- Secccion1 -->    \n    <section class=\"bg1\">\n      <div class=\"container\">\n        <h2 class=\"c3 dato my-auto sabiasque\"> \n          ¿Sabías que en Asunción hay por lo menos 146.000 perros callejeros?\n        </h2>\n      </div>\n    </section>\n\n    \n    <!-- Secccion2 -->\n    <section class=\"bg2\">\n      <div class=\"container\">\n        <h2 class=\"display-3 c4 mt-5\">CONSECUENCIAS</h2>\n        <p class=\"secc2-sub-consec\">\n          La sobrepoblación de perros en las calles trae         \n          consecuencias que afectan tanto a los perros como           \n          a los ciudadanos.\n        </p>\n      \n        <div class=\"container\">\n          <div class=\"row\">\n\n            <div class=\"col-md-6 p1 mt-3\" >\n              <img src=\"img/consecuencias-1.jpg\" alt=\"ENFERMEDADES ZOONÓTICAS\" class=\"img-fluid\">\n              <h6 class=\"c1 secc2-subhed-consec pt-4\">ENFERMEDADES ZOONÓTICAS</h6>\n              <p class=\"secc2-consec-txt\" >\n                Rabia, sarna, leishmaniasis, giardia,                 \n                ehrlichiosis, etc.</p>\n            </div>\n\n            <div class=\"col-md-6 p1 mt-3\" >\n              <img src=\"img/consecuencias-3.jpg\" alt=\"ACCIDENTES DE TRÁNSITO\" class=\"img-fluid\">\n              <h6 class=\"c1 secc2-subhed-consec pt-4\">ACCIDENTES DE TRÁNSITO</h6>\n              <p class=\"secc2-consec-txt\" >Los perros que circulan por avenidas                 \n                transitadas pueden ser atropellados                 \n                por vehículos u ocasionar accidentes \n                \n              de tránsito.</p>\n            </div>\n          </div>\n\n          <div class=\"row\">\n            <div class=\"col-md-6 p1 mt-3\" >\n              <img src=\"img/consecuencias-2.jpg\" alt=\"MORDIDAS Y PELEAS\" class=\"img-fluid\">\n              <h6 class=\"c1 secc2-subhed-consec pt-4\">MORDIDAS Y PELEAS</h6>\n              <p class=\"secc2-consec-txt\" >Algunas enfermedades zoonóticas                 \n                se pueden contagiar al humano a través de                 \n              la mordida de un perro.</p>\n            </div>\n\n            <div class=\"col-md-6 p1 mt-3\" >\n              <img src=\"img/consecuencias-4.jpg\" alt=\"SUFRIMIENTO ANIMAL\" class=\"img-fluid\">\n              <h6 class=\"c1 secc2-subhed-consec pt-4\">SUFRIMIENTO ANIMAL</h6>\n              <p class=\"secc2-consec-txt\" >Los perros callejeros sufren abusos y              \n               maltratos por parte de las personas,               \n              también pasan hambre, sed, frío y calor.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>\n\n    \n    <!-- Secccion3 -->\n    <section class=\"bg1\">\n      <div class=\"container\">\n        <h2 class=\"c3 dato my-auto secc3-heading \"> \n        Una perra sin esterilizar puede tener 2 \n        \n        celos por año y en cada preñez puede dar \n        \n        a luz entre 6 a 12 cachorros\n      </h2>\n      </div>\n    </section>\n    \n\n    <!-- Secccion4 -->\n    <section class=\"secc-4\">\n     <div class=\"container pt-5\">\n       <div class=\"row\">\n         <div class=\"col-md-6 my-auto\">\n\n          <!-- Mobile -->\n          <h2 class=\"c4 display-3 secc4-heading d-block d-sm-none d-none d-sm-block d-md-none \">\n            LOS                       \n            REFUGIOS NO             \n            DAN ABASTO \n          </h2> \n\n          <!-- Desktop -->    \n          <h2 class=\"c4 display-3 secc4-heading d-none d-md-block d-lg-none  d-none d-lg-block d-xl-none d-none d-xl-block\">\n            LOS \n            <br>            \n            REFUGIOS NO             \n            DAN ABASTO \n          </h2>\n\n           <P class=\"secc4-txt\">Cada día en Paraguay se registran \n            \n            nuevos casos de abandono de perros, \n            \n            y tanto los refugios de animales como \n            \n            las ONG, ya no dan abasto.</P>\n            \n            <!-- DESKTOP -->\n           <P class=\"secc4-txt-2 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block\"><strong>Son más los perros abandonados               \n          que los adoptados</strong></P>\n\n         </div>\n\n         <div class=\"col-md-6 my-auto pt-5\">\n          <img src=\"img/Perritos-abandonados.jpg\" alt=\"Perritos-abandonados\" class=\"img-fluid pt-5 secc-4-Perritos-abandonados secc-4-Perritos-MOBILE\">\n         </div>\n        \n\n          <!-- MOBILE  -->\n         <P class=\"secc4-txt-2 secc-4-txt2-MOBILE d-block d-sm-none d-none d-sm-block d-md-none\"><strong>Son más los perros abandonados               \n          que los adoptados</strong></P>\n       </div>\n     </div>\n    </section>\n\n\n    <!-- Secccion5 -->\n    <section class=\"secc-5 bg2\"> \n      <div class=\"container\">\n        <div class=\"row\">\n\n          <!--<div class=\"col-md-5 my-auto order-2 order-md-1 \">-->\n          <div class=\"col-md-5 responsive-height my-auto order-2 order-md-1 jaguaipad\" style=\"height: 652px; z-index: 0\">\n\n            <!--<img src=\"img/Jaguámetro.png\" id=\"jagua1\" class=\"img-fluid pt-5 secc-5-perros-termometro\">-->\n            <!--<img src=\"img/Fondo-Jaguametro.png\" id=\"fondoJagua\" class=\"img-fluid pt-5 secc-5-perros-termometro bounce\">-->\n\n            <img src=\"img/Fondo-Jaguametro.png\"  alt=\"Perritos-jaguametro\" class=\"img-fluid pt-5 secc-5-perros-termometro bounce\"\n              style=\"position:absolute; top: 0px; left: 0;\">\n\n            <img src=\"img/1.png\" id=\"jagua1\"  alt=\"Perritos-jaguametro\" class=\"img-fluid pt-5 secc-5-perros-termometro bounce\"\n            style=\"position:relative; z-index:3\">\n\n            <img src=\"img/2.png\" id=\"jagua2\" alt=\"Perritos-jaguametro\"  class=\"img-fluid pt-5 secc-5-perros-termometro bounce perros\"\n              style=\"z-index:2\">\n\n            <img src=\"img/3.png\" id=\"jagua3\" alt=\"Perritos-jaguametro\"  class=\"img-fluid pt-5 secc-5-perros-termometro bounce perros\"\n              style=\"z-index:4\">\n\n            <img src=\"img/4.png\" id=\"jagua4\" alt=\"Perritos-jaguametro\"  class=\"img-fluid pt-5 secc-5-perros-termometro bounce perros\"\n              style=\"z-index:5\">\n\n            <img src=\"img/5.png\" id=\"jagua5\"  alt=\"Perritos-jaguametro\" class=\"img-fluid pt-5 secc-5-perros-termometro bounce perros\"\n              style=\"z-index:1\">\n\n            <img src=\"img/6.png\" id=\"jagua6\"  alt=\"Perritos-jaguametro\" class=\"img-fluid pt-5 secc-5-perros-termometro bounce perros\"\n              style=\"z-index:0\">\n\n          </div>\n          \n          <!-- Medidor DESKTOP -->\n          <div class=\"col-md-2 my-auto text-center secc5-termometro  order-3 order-md-2 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block\">\n            <div class=\"secc-5-mobile-termometro\">\n              <!--<img src=\"img/Medidor.png\" class=\"img-fluid\">-->\n              <img src=\"img/anhos.png\" alt=\"Perritos-jaguametro\" class=\"img-fluid jaguases\">\n              \n              <div class=\"slider-wrapper ipadProJagua ipadJagua\">\n                <input type=\"range\" id=\"jaguametro\" oninput=\"updateJagua(this.value)\" min=\"0\" max=\"67000\" value=\"0\" step=\"1\">\n              </div>\n              \n            </div>\n          </div>\n\n\n          <!-- Medidor MOBILE -->\n          <div class=\"col-md-2 my-auto text-center secc5-termometro  order-3 order-md-2 d-block d-sm-none d-none d-sm-block d-md-none order-4 order-md-4\" style=\"margin-top: 0 !important\">\n            <div class=\"secc-5-mobile-termometro row\">\n               <!--<img src=\"img/Medidor-mobile.png\" class=\"img-fluid\">-->\n               <div class=\"slider-wrapper jagua-mobile\">\n                <input type=\"range\" id=\"jaguametro\" oninput=\"updateJagua(this.value)\" min=\"0\" max=\"67000\" value=\"0\" step=\"1\">\n              </div>\n                <img src=\"img/anhos-mobile.png\" class=\"img-fluid image-mobile\" alt=\"años-perritos\">\n            </div>\n          </div>\n\n          \n          \n          <!-- opcion termometro \n          <div class=\"col-md-2 my-auto text-center secc5-termometro   order-3 order-md-2 \">\n            <div class=\"secc-5-mobile-termometro\">\n               <p>1 AÑO</p>\n               <p>2 AÑOS</p>\n               <p>3 AÑOS</p>\n               <p>4 AÑOS</p>\n               <p>5 AÑOS</p>\n               <p>6 AÑOS</p>              \n            </div>\n          </div>\n          -->\n\n          <!-- DESKTOP -->\n          <div class=\"col-md-5  my-auto order-1 order-md-3 \">\n            <h2 class=\"display-3 c4\">PROBÁ EL            \n              JAGUÁMETRO</h2>\n            <P class=\"secc5-txt pb-5\">\n              Un solo perro abandonado, significa cientos de perros que se irán reproduciendo en las calles durante los próximos años, aumentando así el número de perros sin hogar de manera descontrolada.\n            </P>\n            \n              <!-- DESKTOP perroXaño -->\n              <div class=\"d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block\">\n                <P class=\"secc5-txt-2 m-0 p-0 \">\n                  Cantidad de perros nuevos por año:\n                </P>\n\n                <P class=\"costo m-0 p-0\" id=\"jaguaCount\">\n                  0\n                </P>\n              </div>            \n          </div>\n\n          <!-- MOBILE perroXaño -->\n           <div class=\"col-sm-12 d-block d-sm-none d-none d-sm-block d-md-none order-4  order-md-4 \"> \n              <P class=\"secc5-txt-2 m-0 p-0\">\n                Cantidad de perros nuevos por año\n              </P>\n\n              <P class=\"costo m-0 p-0\" id=\"jaguaCountMobile\">\n                0\n              </P>\n            </div>\n           \n        </div>\n      </div>\n    </section>\n\n    <!-- Secccion6 -->\n    <section class=\"secc-6\">\n      <div class=\"container pt-5 secc-6\">\n        <div class=\"row\">\n          <div class=\"col-md-6 p-0 m-0 \">\n            <h2 class=\"c1 display-3\">ZONAS ROJAS</h2>\n            <p class=\"secc-6-txt\">En Asunción existen zonas vulnerables con mayor índice de población y reproducción de perros en situación de calle.\n            </p>\n\n            <ul class=\"secc-6-ul-1 text-left\" >\n              <li><span>Mercados Municipales</span></li>\n              <li><span>Hospitales públicos</span></li>\n              <li><span>Barrios Obrero y Chacarita</span></li>\n              <li><span>Bañados</span></li>\n              <li><span>Zonas de mataderos</span></li>\n            </ul>            \n          </div>\n\n          <div class=\"col-md-12 secc-6-map-conta \">\n            <img src=\"img/Mapa-Asunción.jpg\" alt=\"Mapa-Asunción\" class=\"img-fluid secc-6-map\"> \n\n\n            <div class=\"col-md-12 secc-6-lista-posic secc-6-niveles-poblacion\">\n            <p class=\"text-right secc-6-Nivel-de-sobrepoblac\">Nivel de \n              <br>\n              sobrepoblación</p>\n            <ul class=\"float-right secc-6-niveles\">\n              <li class=\"my-auto secc-6-Nivel-color\">ALTO \n                <div class=\"circulo1 redondeado\"></div>\n              </li>\n              <li class=\"my-auto secc-6-Nivel-color\">MEDIO \n                <div class=\"circulo2 redondeado\"></div>\n              </li>\n              <li class=\"my-auto secc-6-Nivel-color\">BAJO \n                <div class=\"circulo3 redondeado\"></div>\n              </li>\n            </ul>\n          </div>            \n        </div>\n        </div>\n\n\n    </div>\n\n        \n    </section>\n    \n    <!-- Secccion7 -->\n    <section class=\"bg2  secc-7\">\n     <div class=\"container\">\n       <div class=\"row\">\n\n        <div class=\"col-md-6 my-auto order-2 order-md-1\">\n          <img src=\"img/perrito-dudos.jpg\" class=\"img-fluid secc-7-perrito-dudos\" alt=\"perrito-dudos\">\n        </div>\n\n        <div class=\"col-md-6 secc-7-conta  order-1 order-md-2\">\n          <h2 class=\"display-3 c4\">QUÉ ES LA \n            \n              ESTERILIZACIÓN?\n          </h2>\n          <P class=\"secc-7-text\">\n            La esterilización, o castración es una intervención quirúrgica sencilla que se realiza con anestesia general en la que se extirpan los órganos reproductores de los perros, en el caso de los machos, se extirpan los testículos (orquiectomía) y en el caso de las hembras, los ovarios y útero (ovariohisterectomía).\n          </P>\n\n          <!-- DESKTOP  BOTON  -->\n          <a href=\"Esterilizacion.html\" class=\" text-center button2 button2 Rectangle-11 secc-7-DESKTOP d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block\">\n              <span class=\"VER-MS\">VER MÁS</span>\n          </a>\n        </div>\n\n          <!-- MOBILE BOTON -->\n        <div class=\"col-md-12 mt-4 d-block d-sm-none d-none d-sm-block d-md-none order-3 order-md-3\">\n          <a href=\"Esterilizacion.html\" class=\" text-center button2 Rectangle-11 secc-7-MOBILE\">\n              <span class=\"VER-MS\">VER MÁS</span>\n          </a>\n        </div>\n         \n       </div>\n     </div>\n    </section>\n  \n    <!-- Footer1 -->\n   <footer class=\"bg3 \" id=\"footer\">    \n      <div class=\"container text-left pt-4\">\n         <div class=\"row\">\n          <div class=\"col-md-4 foo-secc-1\">\n            <h6>TRABAJO FINAL DE GRADO</h6>\n            <p class=\"secc-1-head\">Carrera de Diseño Industrial</p>\n            <p class=\"secc-1-sub-head\">Nathalia Espinola</p>\n            <p>Facultad de Arquitectura, Diseño y Arte</p>\n          </div>\n          <div class=\"col-md-4 foo-secc-2\">\n            <h6>CENTRO ANTIRRÁBICO NACIONAL</h6>\n            <p>\n              <a class=\"contact-link c3\" href=\"tel:-+595981513285\">(0981) 513 285</a>\n            </p>\n          </div>\n          <div class=\"col-md-4 foo-secc-3\">\n            <h6>CONTACTANOS</h6>             \n              <img src=\"img/Icono-Facebook.svg\" alt=\"Facebook\" class=\"ml-1\"> \n              <img src=\"img/Icono-Instagram.svg\" alt=\"Instagram\" class=\"ml-2\">\n          </div>\n        </div>\n      </div>  \n    </footer>\n\n\n    <script src=\"js/jquery.min.js\"></script>\n    <script src=\"js/popper.min.js\"></script>\n\n    <!-- Bootstrap core JavaScript -->\n    <script src=\"js/bootstrap.min.js\"></script>\n    <script src=\"js/animacion-nav.js\"></script>\n    <script src=\"js/miJs.min.js\"></script>\n  </body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision f337c2c8494761897a807aaa6a1d0f20919b6a94)
++++ b/index.html	(date 1653490687823)
+@@ -1,466 +1,357 @@
+ <!DOCTYPE html>
+ <html lang="es">
+-  <head>
+-      <meta charset="utf-8">
+-      <meta content="width=device-width, initial-scale=1" name="viewport">
+-     <meta name="author" content="Nathalia Espinola" >
+-      <meta name="description" content="Nathalia Espinola, trabajo final de grado, carrera de diseño industrial, facultad de arquitectura, " >
+-      <meta name="keywords" content="perros abandonados, perros callejeros, enfermedades zoonóticas, sufrimiento animal, mordidas y peleas, refugios de animales, esterilización, castración, costo de una castración, castración preventiva, tratamientos">
+-      <title>
+-          JaguaSalida
+-      </title>
+-      <link href="img/perrito.ico" rel="icon">
+-
+-      <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
+-      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+-
+-      <!-- Bootstrap core CSS -->
+-      <link href="css/bootstrap.min.css" rel="stylesheet">
+-
+-      <!-- Custom styles for this template -->
+-      <link href="css/estilos.css" rel="stylesheet">
+-      <link href="css/miEstilo.min.css" rel="stylesheet">
+-  </head>
++
++<head>
++    <!-- Global site tag (gtag.js) - Google Analytics -->
++    <script decoding="async" src="https://www.googletagmanager.com/gtag/js?id=UA-127377784-1"></script>
++    <script>
++        window.dataLayer = window.dataLayer || [];
++      function gtag(){dataLayer.push(arguments);}
++      gtag('js', new Date());
++
++      gtag('config', 'UA-127377784-1');
++    </script>
++    <meta charset="utf-8">
++    <meta content="width=device-width, initial-scale=1" name="viewport">
++    <meta name="author" content="Nathalia Espinola">
++    <meta name="description" content="Nathalia Espinola, trabajo final de grado, carrera de diseño industrial, facultad de arquitectura, ">
++    <meta name="keywords" content="perros abandonados, perros callejeros, enfermedades zoonóticas, sufrimiento animal, mordidas y peleas, refugios de animales, esterilización, castración, costo de una castración, castración preventiva, tratamientos">
++    <title>
++        JaguaSalida
++    </title>
++    <link href="img/perrito.ico" rel="icon">
++    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
++    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
++    <!-- Bootstrap core CSS -->
++    <link href="css/bootstrap.min.css" rel="stylesheet">
++    <!-- Custom styles for this template -->
++    <link href="css/estilos.css" rel="stylesheet">
++    <link href="css/miEstilo.min.css" rel="stylesheet">
++</head>
+ 
+-
+-  <body id="home">
+-  <div class=" bg2">
+-    <div id="menu">
+-      <nav class="navbar navbar-expand-lg navbar-light ">
+-        <a class="navbar-brand pl-4" href="index.html" id="nav-logo">
+-            <img src="img/logo-header.png"  class="img-fluid nav-logo " alt="Logo-JaguaSalida"> 
+-        </a>
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarNav">
+-          <div class="bag-menu-img"></div>
+-            <ul class="nav navbar-nav ml-auto ul-nav">
+-              <li class="nav-item  ">
+-                <a class="nav-link text-left disabled active" href="index.html">Problemática <span class="sr-only">(current)</span></a>
+-              </li>                 
+-              <li class="nav-item">
+-                <a class="nav-link text-left" href="Esterilizacion.html">Esterilización</a>
+-              </li>
+-              <li class="nav-item">
+-                <a class="nav-link text-left " href="Mitos.html">Mitos</a>
+-              </li>
+-              <li class="nav-item">
+-                <a class="nav-link text-left " href="Contacto.html">Contacto</a>
+-              </li>
+-            </ul>
+-        </div>
+-      </nav>       
+-    </div>
+-  </div>
+-
+-
++<body id="home">
++    <div class=" bg2">
++        <div id="menu">
++            <nav class="navbar navbar-expand-lg navbar-light ">
++                <a class="navbar-brand pl-4" href="index.html" id="nav-logo">
++                    <img decoding="async" src="img/logo-header.png" class="img-fluid nav-logo " alt="Logo-JaguaSalida">
++                </a>
++                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
++                    <span class="navbar-toggler-icon"></span>
++                </button>
++                <div class="collapse navbar-collapse" id="navbarNav">
++                    <div class="bag-menu-img"></div>
++                    <ul class="nav navbar-nav ml-auto ul-nav">
++                        <li class="nav-item  ">
++                            <a class="nav-link text-left disabled active" href="index.html">Problemática <span class="sr-only">(current)</span></a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link text-left" href="Esterilizacion.html">Esterilización</a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link text-left " href="Mitos.html">Mitos</a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link text-left " href="Contacto.html">Contacto</a>
++                        </li>
++                    </ul>
++                </div>
++            </nav>
++        </div>
++    </div>
+     <div class=" bg2 mobile-pt">
+-      <!-- Head -->
+-      <header class="bg2 p-0 header-logo; positin:absolute">
+-          <div style="position:relative;z-index: 1">
+-            <img src="img/Logo-JaguaSalida.svg" width="250" height="250" class="img-fluid logo" alt="Logo-JaguaSalida" style="z-index:50">
+-
+-            <!-- DESKTOP -->
+-            <center style="margin-top:5.5%; margin-bottom:25px"
+-              class="img-fluid logo-perro d-none d-md-block d-lg-none  d-none d-lg-block d-xl-none no-sm d-xl-block">
+-
+-              <div class="jaguastyle">
+-                <img id="jaguacity" class="img-fluid perro-background" style="margin-left:40%">
+-              </div>
+-
+-              <div class="wrapper">
+-                  <div class="wrapper" style="position: absolute; margin-left:20%">
+-                    <img src="img/cielo.png" class="img-fluid perro-background cielo">
+-                  </div>
+-              </div>
+-
+-              <div class="wrapper" style="float:none; margin-left:40%">
+-                  <div class="sliding-background"></div>
+-              </div>
+-
+-              <img src="img/Shape.png" class="img-fluid perros shape">
+-            </center>
+-            
+-            <!-- MOBILE -->
+-            <center style="margin-top:5.5%; margin-bottom:25px"
+-              class="img-fluid logo-perro d-block d-sm-none d-none d-sm-block no-md">
+-              
+-              <div class="jaguastyle-mobile">
+-                <img id="jaguacity2" class="img-fluid perro-background-mobile">
+-              </div>
+-              
+-              <img src="img/ShapeMobile.png" class="img-fluid shape-mobile">
+-              
+-              <div class="wrapper-mobile">
+-                  <div class="wrapper-mobile" style="position: absolute;">
+-                    <img src="img/cielo.png" class="img-fluid perro-background-mobile cielo-mobile">
+-                  </div>
+-              </div>
+-
+-              <div class="wrapper-mobile" style="float:none;">
+-                  <div class="sliding-background-mobile"></div>
+-              </div>
+-              
+-            </center>
+-          </div>
+-      </header>
+-      <div class="clearfix"></div>
++        <!-- Head -->
++        <header class="bg6 mt-3 mb-0 header-logo">
++            <div style="position:relative;z-index: 1">
++                <img decoding="async" src="img/Logo-JaguaSalida.svg" width="250" height="250" class="img-fluid logo" alt="Logo-JaguaSalida" style="z-index:50">
++                <!-- DESKTOP -->
++                <center class="img-fluid logo-perro  d-none d-lg-block d-xl-none   d-none d-xl-block">
++                    <div class="jaguastyle">
++                        <img decoding="async" id="jaguacity" alt="jaguacity" class="img-fluid perro-background" style="margin-left:40%">
++                    </div>
++                    <div class="wrapper">
++                        <div class="wrapper" style="position: absolute; bottom: 0; margin-left:40%">
++                            <img decoding="async" alt="Cielo" src="img/Cielo.png" class="img-fluid perro-background cielo">
++                        </div>
++                    </div>
++                    <div class="wrapper" style="float:none; margin-left:40%">
++                        <div class="sliding-background"></div>
++                    </div>
++                    <img decoding="async" src="img/Shape.png" class="img-fluid perros shape" alt="shape">
++                </center>
++                <!-- MOBILE -->
++                <center class="img-fluid logo-perro     d-none d-md-block d-lg-none   d-none d-sm-block d-md-none   d-block d-sm-none    " style="margin-top:5.5%;  ">
++                    <div class="jaguastyle-mobile">
++                        <img alt="jaguacity2" decoding="async" id="jaguacity2" class="img-fluid perro-background-mobile">
++                    </div>
++                    <img decoding="async" alt="ShapeMobile" src="img/ShapeMobile.png" class="img-fluid shape-mobile">
++                    <div class="wrapper-mobile">
++                        <div class="wrapper-mobile" style="position: absolute;bottom: 0">
++                            <img alt="Cielo" decoding="async" src="img/Cielo.png" class="img-fluid perro-background-mobile cielo-mobile">
++                        </div>
++                    </div>
++                    <div class="wrapper-mobile" style="float:none;">
++                        <div class="sliding-background-mobile"></div>
++                    </div>
++                </center>
++            </div>
++        </header>
++        <div class="clearfix"></div>
+     </div>
+-
+-
+-
+-
+-    
+-    <!-- Secccion1 -->    
+-    <section class="bg1">
+-      <div class="container">
+-        <h2 class="c3 dato my-auto sabiasque"> 
+-          ¿Sabías que en Asunción hay por lo menos 146.000 perros callejeros?
+-        </h2>
+-      </div>
++    <!-- Secccion1 -->
++    <section class="bg1 position-relative">
++        <div class="container">
++            <h2 class="c3 dato my-auto sabiasque">
++                ¿Sabías que en Asunción hay por lo menos 146.000 perros callejeros?
++            </h2>
++        </div>
+     </section>
+-
+-    
+     <!-- Secccion2 -->
+     <section class="bg2">
+-      <div class="container">
+-        <h2 class="display-3 c4 mt-5">CONSECUENCIAS</h2>
+-        <p class="secc2-sub-consec">
+-          La sobrepoblación de perros en las calles trae         
+-          consecuencias que afectan tanto a los perros como           
+-          a los ciudadanos.
+-        </p>
+-      
+-        <div class="container">
+-          <div class="row">
+-
+-            <div class="col-md-6 p1 mt-3" >
+-              <img src="img/consecuencias-1.jpg" alt="ENFERMEDADES ZOONÓTICAS" class="img-fluid">
+-              <h6 class="c1 secc2-subhed-consec pt-4">ENFERMEDADES ZOONÓTICAS</h6>
+-              <p class="secc2-consec-txt" >
+-                Rabia, sarna, leishmaniasis, giardia,                 
+-                ehrlichiosis, etc.</p>
+-            </div>
+-
+-            <div class="col-md-6 p1 mt-3" >
+-              <img src="img/consecuencias-3.jpg" alt="ACCIDENTES DE TRÁNSITO" class="img-fluid">
+-              <h6 class="c1 secc2-subhed-consec pt-4">ACCIDENTES DE TRÁNSITO</h6>
+-              <p class="secc2-consec-txt" >Los perros que circulan por avenidas                 
+-                transitadas pueden ser atropellados                 
+-                por vehículos u ocasionar accidentes 
+-                
+-              de tránsito.</p>
+-            </div>
+-          </div>
+-
+-          <div class="row">
+-            <div class="col-md-6 p1 mt-3" >
+-              <img src="img/consecuencias-2.jpg" alt="MORDIDAS Y PELEAS" class="img-fluid">
+-              <h6 class="c1 secc2-subhed-consec pt-4">MORDIDAS Y PELEAS</h6>
+-              <p class="secc2-consec-txt" >Algunas enfermedades zoonóticas                 
+-                se pueden contagiar al humano a través de                 
+-              la mordida de un perro.</p>
+-            </div>
+-
+-            <div class="col-md-6 p1 mt-3" >
+-              <img src="img/consecuencias-4.jpg" alt="SUFRIMIENTO ANIMAL" class="img-fluid">
+-              <h6 class="c1 secc2-subhed-consec pt-4">SUFRIMIENTO ANIMAL</h6>
+-              <p class="secc2-consec-txt" >Los perros callejeros sufren abusos y              
+-               maltratos por parte de las personas,               
+-              también pasan hambre, sed, frío y calor.</p>
+-            </div>
+-          </div>
+-        </div>
+-      </div>
++        <div class="container">
++            <h2 class="display-3 c4 mt-5">CONSECUENCIAS</h2>
++            <p class="secc2-sub-consec">
++                La sobrepoblación de perros en las calles trae
++                consecuencias que afectan tanto a los perros como
++                a los ciudadanos.
++            </p>
++            <div class="container">
++                <div class="row">
++                    <div class="col-md-6 p1 mt-3">
++                        <img decoding="async" src="img/consecuencias-1.jpg" alt="ENFERMEDADES ZOONÓTICAS" class="img-fluid">
++                        <h6 class="c1 secc2-subhed-consec pt-4">ENFERMEDADES ZOONÓTICAS</h6>
++                        <p class="secc2-consec-txt">
++                            Rabia, sarna, leishmaniasis, giardia,
++                            ehrlichiosis, etc.</p>
++                    </div>
++                    <div class="col-md-6 p1 mt-3">
++                        <img decoding="async" src="img/consecuencias-3.jpg" alt="ACCIDENTES DE TRÁNSITO" class="img-fluid">
++                        <h6 class="c1 secc2-subhed-consec pt-4">ACCIDENTES DE TRÁNSITO</h6>
++                        <p class="secc2-consec-txt">Los perros que circulan por avenidas
++                            transitadas pueden ser atropellados
++                            por vehículos u ocasionar accidentes
++                            de tránsito.</p>
++                    </div>
++                </div>
++                <div class="row">
++                    <div class="col-md-6 p1 mt-3">
++                        <img decoding="async" src="img/consecuencias-2.jpg" alt="MORDIDAS Y PELEAS" class="img-fluid">
++                        <h6 class="c1 secc2-subhed-consec pt-4">MORDIDAS Y PELEAS</h6>
++                        <p class="secc2-consec-txt">Algunas enfermedades zoonóticas
++                            se pueden contagiar al humano a través de
++                            la mordida de un perro.</p>
++                    </div>
++                    <div class="col-md-6 p1 mt-3">
++                        <img decoding="async" src="img/consecuencias-4.jpg" alt="SUFRIMIENTO ANIMAL" class="img-fluid">
++                        <h6 class="c1 secc2-subhed-consec pt-4">SUFRIMIENTO ANIMAL</h6>
++                        <p class="secc2-consec-txt">Los perros callejeros sufren abusos y
++                            maltratos por parte de las personas,
++                            también pasan hambre, sed, frío y calor.</p>
++                    </div>
++                </div>
++            </div>
++        </div>
+     </section>
+-
+-    
+     <!-- Secccion3 -->
+     <section class="bg1">
+-      <div class="container">
+-        <h2 class="c3 dato my-auto secc3-heading "> 
+-        Una perra sin esterilizar puede tener 2 
+-        
+-        celos por año y en cada preñez puede dar 
+-        
+-        a luz entre 6 a 12 cachorros
+-      </h2>
+-      </div>
++        <div class="container">
++            <h2 class="c3 dato my-auto secc3-heading ">
++                Una perra sin esterilizar puede tener 2
++                celos por año y en cada preñez puede dar
++                a luz entre 6 a 12 cachorros
++            </h2>
++        </div>
+     </section>
+-    
+-
+     <!-- Secccion4 -->
+     <section class="secc-4">
+-     <div class="container pt-5">
+-       <div class="row">
+-         <div class="col-md-6 my-auto">
+-
+-          <!-- Mobile -->
+-          <h2 class="c4 display-3 secc4-heading d-block d-sm-none d-none d-sm-block d-md-none ">
+-            LOS                       
+-            REFUGIOS NO             
+-            DAN ABASTO 
+-          </h2> 
+-
+-          <!-- Desktop -->    
+-          <h2 class="c4 display-3 secc4-heading d-none d-md-block d-lg-none  d-none d-lg-block d-xl-none d-none d-xl-block">
+-            LOS 
+-            <br>            
+-            REFUGIOS NO             
+-            DAN ABASTO 
+-          </h2>
+-
+-           <P class="secc4-txt">Cada día en Paraguay se registran 
+-            
+-            nuevos casos de abandono de perros, 
+-            
+-            y tanto los refugios de animales como 
+-            
+-            las ONG, ya no dan abasto.</P>
+-            
+-            <!-- DESKTOP -->
+-           <P class="secc4-txt-2 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block"><strong>Son más los perros abandonados               
+-          que los adoptados</strong></P>
+-
+-         </div>
+-
+-         <div class="col-md-6 my-auto pt-5">
+-          <img src="img/Perritos-abandonados.jpg" alt="Perritos-abandonados" class="img-fluid pt-5 secc-4-Perritos-abandonados secc-4-Perritos-MOBILE">
+-         </div>
+-        
+-
+-          <!-- MOBILE  -->
+-         <P class="secc4-txt-2 secc-4-txt2-MOBILE d-block d-sm-none d-none d-sm-block d-md-none"><strong>Son más los perros abandonados               
+-          que los adoptados</strong></P>
+-       </div>
+-     </div>
++        <div class="container pt-5">
++            <div class="row">
++                <div class="col-md-6 my-auto">
++                    <!-- Mobile -->
++                    <h2 class="c4 display-3 secc4-heading d-block d-sm-none d-none d-sm-block d-md-none ">
++                        LOS
++                        REFUGIOS NO
++                        DAN ABASTO
++                    </h2>
++                    <!-- Desktop -->
++                    <h2 class="c4 display-3 secc4-heading d-none d-md-block d-lg-none  d-none d-lg-block d-xl-none d-none d-xl-block">
++                        LOS
++                        <br>
++                        REFUGIOS NO
++                        DAN ABASTO
++                    </h2>
++                    <P class="secc4-txt">Cada día en Paraguay se registran
++                        nuevos casos de abandono de perros,
++                        y tanto los refugios de animales como
++                        las ONG, ya no dan abasto.</P>
++                    <!-- DESKTOP -->
++                    <P class="secc4-txt-2 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block"><strong>Son más los perros abandonados
++                            que los adoptados</strong></P>
++                </div>
++                <div class="col-md-6 my-auto pt-5">
++                    <img decoding="async" src="img/Perritos-abandonados.jpg" alt="Perritos-abandonados" class="img-fluid pt-5 secc-4-Perritos-abandonados secc-4-Perritos-MOBILE">
++                </div>
++                <!-- MOBILE  -->
++                <P class="secc4-txt-2 secc-4-txt2-MOBILE d-block d-sm-none d-none d-sm-block d-md-none"><strong>Son más los perros abandonados
++                        que los adoptados</strong></P>
++            </div>
++        </div>
+     </section>
+-
+-
+     <!-- Secccion5 -->
+-    <section class="secc-5 bg2"> 
+-      <div class="container">
+-        <div class="row">
+-
+-          <!--<div class="col-md-5 my-auto order-2 order-md-1 ">-->
+-          <div class="col-md-5 responsive-height my-auto order-2 order-md-1 jaguaipad" style="height: 652px; z-index: 0">
+-
+-            <!--<img src="img/Jaguámetro.png" id="jagua1" class="img-fluid pt-5 secc-5-perros-termometro">-->
+-            <!--<img src="img/Fondo-Jaguametro.png" id="fondoJagua" class="img-fluid pt-5 secc-5-perros-termometro bounce">-->
+-
+-            <img src="img/Fondo-Jaguametro.png"  alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce"
+-              style="position:absolute; top: 0px; left: 0;">
+-
+-            <img src="img/1.png" id="jagua1"  alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce"
+-            style="position:relative; z-index:3">
+-
+-            <img src="img/2.png" id="jagua2" alt="Perritos-jaguametro"  class="img-fluid pt-5 secc-5-perros-termometro bounce perros"
+-              style="z-index:2">
+-
+-            <img src="img/3.png" id="jagua3" alt="Perritos-jaguametro"  class="img-fluid pt-5 secc-5-perros-termometro bounce perros"
+-              style="z-index:4">
+-
+-            <img src="img/4.png" id="jagua4" alt="Perritos-jaguametro"  class="img-fluid pt-5 secc-5-perros-termometro bounce perros"
+-              style="z-index:5">
+-
+-            <img src="img/5.png" id="jagua5"  alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce perros"
+-              style="z-index:1">
+-
+-            <img src="img/6.png" id="jagua6"  alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce perros"
+-              style="z-index:0">
+-
+-          </div>
+-          
+-          <!-- Medidor DESKTOP -->
+-          <div class="col-md-2 my-auto text-center secc5-termometro  order-3 order-md-2 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
+-            <div class="secc-5-mobile-termometro">
+-              <!--<img src="img/Medidor.png" class="img-fluid">-->
+-              <img src="img/anhos.png" alt="Perritos-jaguametro" class="img-fluid jaguases">
+-              
+-              <div class="slider-wrapper ipadProJagua ipadJagua">
+-                <input type="range" id="jaguametro" oninput="updateJagua(this.value)" min="0" max="67000" value="0" step="1">
+-              </div>
+-              
+-            </div>
+-          </div>
+-
+-
+-          <!-- Medidor MOBILE -->
+-          <div class="col-md-2 my-auto text-center secc5-termometro  order-3 order-md-2 d-block d-sm-none d-none d-sm-block d-md-none order-4 order-md-4" style="margin-top: 0 !important">
+-            <div class="secc-5-mobile-termometro row">
+-               <!--<img src="img/Medidor-mobile.png" class="img-fluid">-->
+-               <div class="slider-wrapper jagua-mobile">
+-                <input type="range" id="jaguametro" oninput="updateJagua(this.value)" min="0" max="67000" value="0" step="1">
+-              </div>
+-                <img src="img/anhos-mobile.png" class="img-fluid image-mobile" alt="años-perritos">
+-            </div>
+-          </div>
+-
+-          
+-          
+-          <!-- opcion termometro 
+-          <div class="col-md-2 my-auto text-center secc5-termometro   order-3 order-md-2 ">
+-            <div class="secc-5-mobile-termometro">
+-               <p>1 AÑO</p>
+-               <p>2 AÑOS</p>
+-               <p>3 AÑOS</p>
+-               <p>4 AÑOS</p>
+-               <p>5 AÑOS</p>
+-               <p>6 AÑOS</p>              
+-            </div>
+-          </div>
+-          -->
+-
+-          <!-- DESKTOP -->
+-          <div class="col-md-5  my-auto order-1 order-md-3 ">
+-            <h2 class="display-3 c4">PROBÁ EL            
+-              JAGUÁMETRO</h2>
+-            <P class="secc5-txt pb-5">
+-              Un solo perro abandonado, significa cientos de perros que se irán reproduciendo en las calles durante los próximos años, aumentando así el número de perros sin hogar de manera descontrolada.
+-            </P>
+-            
+-              <!-- DESKTOP perroXaño -->
+-              <div class="d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
+-                <P class="secc5-txt-2 m-0 p-0 ">
+-                  Cantidad de perros nuevos por año:
+-                </P>
+-
+-                <P class="costo m-0 p-0" id="jaguaCount">
+-                  0
+-                </P>
+-              </div>            
+-          </div>
+-
+-          <!-- MOBILE perroXaño -->
+-           <div class="col-sm-12 d-block d-sm-none d-none d-sm-block d-md-none order-4  order-md-4 "> 
+-              <P class="secc5-txt-2 m-0 p-0">
+-                Cantidad de perros nuevos por año
+-              </P>
+-
+-              <P class="costo m-0 p-0" id="jaguaCountMobile">
+-                0
+-              </P>
+-            </div>
+-           
+-        </div>
+-      </div>
++    <section class="secc-5 bg2">
++        <div class="container">
++            <div class="row">
++                <!--<div class="col-md-5 my-auto order-2 order-md-1 ">-->
++                <div class="col-md-5 responsive-height my-auto order-2 order-md-1 jaguaipad" style="height: 652px; z-index: 0">
++                    <img decoding="async" src="img/Fondo-Jaguametro.png" alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce" style="position:absolute; top: 0; left: 0;">
++                    <img decoding="async" src="img/1.png" id="jagua1" alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce" style="position:relative; z-index:3">
++                    <img decoding="async" src="img/2.png" id="jagua2" alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce perros" style="z-index:2">
++                    <img decoding="async" src="img/3.png" id="jagua3" alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce perros" style="z-index:4">
++                    <img src="img/4.png" id="jagua4" alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce perros" style="z-index:5">
++                    <img decoding="async" src="img/5.png" id="jagua5" alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce perros" style="z-index:1">
++                    <img decoding="async" src="img/6.png" id="jagua6" alt="Perritos-jaguametro" class="img-fluid pt-5 secc-5-perros-termometro bounce perros" style="z-index:0">
++                </div>
++                <!-- Medidor DESKTOP -->
++                <div class="col-md-2 my-auto text-center secc5-termometro  order-3 order-md-2 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
++                    <div class="secc-5-mobile-termometro">
++                        <img decoding="async" src="img/anhos.png" alt="Perritos-jaguametro" class="img-fluid jaguases">
++                        <div class="slider-wrapper ipadProJagua ipadJagua">
++                            <input type="range" id="jaguametro" oninput="updateJagua(this.value)" min="0" max="67000" value="0" step="1">
++                        </div>
++                    </div>
++                </div>
++                <!-- Medidor MOBILE -->
++                <div class="col-md-2 my-auto text-center secc5-termometro  order-3 order-md-2 d-block d-sm-none d-none d-sm-block d-md-none order-4 order-md-4" style="margin-top: 0 !important">
++                    <div class="secc-5-mobile-termometro row">
++                        <div class="slider-wrapper jagua-mobile">
++                            <input type="range" id="jaguametro" oninput="updateJagua(this.value)" min="0" max="67000" value="0" step="1">
++                        </div>
++                        <img decoding="async" src="img/anhos-mobile.png" class="img-fluid image-mobile" alt="años-perritos">
++                    </div>
++                </div>
++                <!-- DESKTOP -->
++                <div class="col-md-5  my-auto order-1 order-md-3 ">
++                    <h2 class="display-3 c4">PROBÁ EL
++                        JAGUÁMETRO</h2>
++                    <P class="secc5-txt pb-5">
++                        Un solo perro abandonado, significa cientos de perros que se irán reproduciendo en las calles durante los próximos años, aumentando así el número de perros sin hogar de manera descontrolada.
++                    </P>
++                    <!-- DESKTOP perroXaño -->
++                    <div class="d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
++                        <P class="secc5-txt-2 m-0 p-0 ">
++                            Cantidad de perros nuevos por año:
++                        </P>
++                        <P class="costo m-0 p-0" id="jaguaCount">
++                            0
++                        </P>
++                    </div>
++                </div>
++                <!-- MOBILE perroXaño -->
++                <div class="col-sm-12 d-block d-sm-none d-none d-sm-block d-md-none order-4  order-md-4 ">
++                    <P class="secc5-txt-2 m-0 p-0">
++                        Cantidad de perros nuevos por año
++                    </P>
++                    <P class="costo m-0 p-0" id="jaguaCountMobile">
++                        0
++                    </P>
++                </div>
++            </div>
++        </div>
+     </section>
+-
+     <!-- Secccion6 -->
+     <section class="secc-6">
+-      <div class="container pt-5 secc-6">
+-        <div class="row">
+-          <div class="col-md-6 p-0 m-0 ">
+-            <h2 class="c1 display-3">ZONAS ROJAS</h2>
+-            <p class="secc-6-txt">En Asunción existen zonas vulnerables con mayor índice de población y reproducción de perros en situación de calle.
+-            </p>
+-
+-            <ul class="secc-6-ul-1 text-left" >
+-              <li><span>Mercados Municipales</span></li>
+-              <li><span>Hospitales públicos</span></li>
+-              <li><span>Barrios Obrero y Chacarita</span></li>
+-              <li><span>Bañados</span></li>
+-              <li><span>Zonas de mataderos</span></li>
+-            </ul>            
+-          </div>
+-
+-          <div class="col-md-12 secc-6-map-conta ">
+-            <img src="img/Mapa-Asunción.jpg" alt="Mapa-Asunción" class="img-fluid secc-6-map"> 
+-
+-
+-            <div class="col-md-12 secc-6-lista-posic secc-6-niveles-poblacion">
+-            <p class="text-right secc-6-Nivel-de-sobrepoblac">Nivel de 
+-              <br>
+-              sobrepoblación</p>
+-            <ul class="float-right secc-6-niveles">
+-              <li class="my-auto secc-6-Nivel-color">ALTO 
+-                <div class="circulo1 redondeado"></div>
+-              </li>
+-              <li class="my-auto secc-6-Nivel-color">MEDIO 
+-                <div class="circulo2 redondeado"></div>
+-              </li>
+-              <li class="my-auto secc-6-Nivel-color">BAJO 
+-                <div class="circulo3 redondeado"></div>
+-              </li>
+-            </ul>
+-          </div>            
+-        </div>
+-        </div>
+-
+-
+-    </div>
+-
+-        
++        <div class="container pt-5 secc-6">
++            <div class="row">
++                <div class="col-md-6 p-0 m-0 ">
++                    <h2 class="c1 display-3">ZONAS ROJAS</h2>
++                    <p class="secc-6-txt">En Asunción existen zonas vulnerables con mayor índice de población y reproducción de perros en situación de calle.
++                    </p>
++                    <ul class="secc-6-ul-1 text-left">
++                        <li><span>Mercados Municipales</span></li>
++                        <li><span>Hospitales públicos</span></li>
++                        <li><span>Barrios Obrero y Chacarita</span></li>
++                        <li><span>Bañados</span></li>
++                        <li><span>Zonas de mataderos</span></li>
++                    </ul>
++                </div>
++                <div class="col-md-12 secc-6-map-conta ">
++                    <img decoding="async" src="img/Mapa-Asunción.jpg" alt="Mapa-Asunción" class="img-fluid secc-6-map">
++                    <div class="col-md-12 secc-6-lista-posic secc-6-niveles-poblacion">
++                        <p class="text-right secc-6-Nivel-de-sobrepoblac">Nivel de
++                            <br>
++                            sobrepoblación</p>
++                        <ul class="float-right secc-6-niveles">
++                            <li class="my-auto secc-6-Nivel-color">ALTO
++                                <div class="circulo1 redondeado"></div>
++                            </li>
++                            <li class="my-auto secc-6-Nivel-color">MEDIO
++                                <div class="circulo2 redondeado"></div>
++                            </li>
++                            <li class="my-auto secc-6-Nivel-color">BAJO
++                                <div class="circulo3 redondeado"></div>
++                            </li>
++                        </ul>
++                    </div>
++                </div>
++            </div>
++        </div>
+     </section>
+-    
+     <!-- Secccion7 -->
+     <section class="bg2  secc-7">
+-     <div class="container">
+-       <div class="row">
+-
+-        <div class="col-md-6 my-auto order-2 order-md-1">
+-          <img src="img/perrito-dudos.jpg" class="img-fluid secc-7-perrito-dudos" alt="perrito-dudos">
+-        </div>
+-
+-        <div class="col-md-6 secc-7-conta  order-1 order-md-2">
+-          <h2 class="display-3 c4">QUÉ ES LA 
+-            
+-              ESTERILIZACIÓN?
+-          </h2>
+-          <P class="secc-7-text">
+-            La esterilización, o castración es una intervención quirúrgica sencilla que se realiza con anestesia general en la que se extirpan los órganos reproductores de los perros, en el caso de los machos, se extirpan los testículos (orquiectomía) y en el caso de las hembras, los ovarios y útero (ovariohisterectomía).
+-          </P>
+-
+-          <!-- DESKTOP  BOTON  -->
+-          <a href="Esterilizacion.html" class=" text-center button2 button2 Rectangle-11 secc-7-DESKTOP d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
+-              <span class="VER-MS">VER MÁS</span>
+-          </a>
+-        </div>
+-
+-          <!-- MOBILE BOTON -->
+-        <div class="col-md-12 mt-4 d-block d-sm-none d-none d-sm-block d-md-none order-3 order-md-3">
+-          <a href="Esterilizacion.html" class=" text-center button2 Rectangle-11 secc-7-MOBILE">
+-              <span class="VER-MS">VER MÁS</span>
+-          </a>
+-        </div>
+-         
+-       </div>
+-     </div>
++        <div class="container">
++            <div class="row">
++                <div class="col-md-6 my-auto order-2 order-md-1">
++                    <img decoding="async" src="img/perrito-dudos.jpg" class="img-fluid secc-7-perrito-dudos" alt="perrito-dudos">
++                </div>
++                <div class="col-md-6 secc-7-conta  order-1 order-md-2">
++                    <h2 class="display-3 c4">QUÉ ES LA
++                        ESTERILIZACIÓN?
++                    </h2>
++                    <P class="secc-7-text">
++                        La esterilización, o castración es una intervención quirúrgica sencilla que se realiza con anestesia general en la que se extirpan los órganos reproductores de los perros, en el caso de los machos, se extirpan los testículos (orquiectomía) y en el caso de las hembras, los ovarios y útero (ovariohisterectomía).
++                    </P>
++                    <!-- DESKTOP  BOTON  -->
++                    <a href="Esterilizacion.html" class=" text-center button2 button2 Rectangle-11 secc-7-DESKTOP d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
++                        <span class="VER-MS">VER MÁS</span>
++                    </a>
++                </div>
++                <!-- MOBILE BOTON -->
++                <div class="col-md-12 mt-4 d-block d-sm-none d-none d-sm-block d-md-none order-3 order-md-3">
++                    <a href="Esterilizacion.html" class=" text-center button2 Rectangle-11 secc-7-MOBILE">
++                        <span class="VER-MS">VER MÁS</span>
++                    </a>
++                </div>
++            </div>
++        </div>
+     </section>
+-  
+     <!-- Footer1 -->
+-   <footer class="bg3 " id="footer">    
+-      <div class="container text-left pt-4">
+-         <div class="row">
+-          <div class="col-md-4 foo-secc-1">
+-            <h6>TRABAJO FINAL DE GRADO</h6>
+-            <p class="secc-1-head">Carrera de Diseño Industrial</p>
+-            <p class="secc-1-sub-head">Nathalia Espinola</p>
+-            <p>Facultad de Arquitectura, Diseño y Arte</p>
+-          </div>
+-          <div class="col-md-4 foo-secc-2">
+-            <h6>CENTRO ANTIRRÁBICO NACIONAL</h6>
+-            <p>
+-              <a class="contact-link c3" href="tel:-+595981513285">(0981) 513 285</a>
+-            </p>
+-          </div>
+-          <div class="col-md-4 foo-secc-3">
+-            <h6>CONTACTANOS</h6>             
+-              <img src="img/Icono-Facebook.svg" alt="Facebook" class="ml-1"> 
+-              <img src="img/Icono-Instagram.svg" alt="Instagram" class="ml-2">
+-          </div>
+-        </div>
+-      </div>  
++    <footer class="bg3 " id="footer">
++        <div class="container text-left pt-4">
++            <div class="row">
++                <div class="col-md-4 foo-secc-1">
++                    <h6>TRABAJO FINAL DE GRADO</h6>
++                    <p class="secc-1-sub-head">Nathalia Espinola</p>
++                </div>
++                <div class="col-md-4 foo-secc-2">
++                    <h6>Facultad de Arquitectura, Diseño y Arte</h6>
++                    <p>
++                        Carrera de Diseño Industrial
++                    </p>
++                </div>
++                <div class="col-md-4 foo-secc-3">
++                    <h6>CONTACTANOS</h6>
++                    <img decoding="async" src="img/Icono-Facebook.svg" alt="Facebook" class="ml-1">
++                    <img decoding="async" src="img/Icono-Instagram.svg" alt="Instagram" class="ml-2">
++                </div>
++            </div>
++        </div>
+     </footer>
+-
+-
+     <script src="js/jquery.min.js"></script>
+     <script src="js/popper.min.js"></script>
+-
+     <!-- Bootstrap core JavaScript -->
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/animacion-nav.js"></script>
+     <script src="js/miJs.min.js"></script>
+-  </body>
++</body>
++
+ </html>
+\ No newline at end of file
+Index: css/estilos.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body {\n    text-align: center;\n    color: #212529;\n    font-family: 'Baloo Tammudu', cursive\n}\nheader, section {\n    padding-top: 100px;\n    padding-bottom: 100px\n}\n#navbar1 {\n    z-index: 999\n}\n#navbar2 {\n    z-index: 998\n}\n.nav-logo {\n    max-width: 50%\n}\n#menu {\n    width: 100%;\n    height: 0px;\n    text-align: center;\n    min-width: 200px;\n    z-index: 2\n}\n#menu a {\n    font-family: arial;\n    text-decoration: none;\n    color: #fff;\n    margin-right: 20px\n}\n\n\n\np.secc-10-precio-kilo {\n        font-family:\"Open Sans\"!important;\n    }\n\n\n\n\n\n#menu a.active {\n    color: #F6A700 !important;\n    cursor: default;\n}\n\n.contact-link:hover {\n    color: #1da5b7 !important;\n}\n\n\n\n\n.logo {\n    position: absolute;\n    top: 15%;\n    left: 5%;\n    width: 30%;\n    max-width: 550px;\n\n}\n\n\nimg.logo-perro {\n    float: right\n}\n.fixed {\n    position: fixed;\n    top: 0;\n    background-color: #ffffff;\n    -webkit-box-shadow: 0px 6px 4px 1px rgba(0, 0, 0, 0.07);\n    -moz-box-shadow: 0px 6px 4px 1px rgba(0, 0, 0, 0.07);\n    box-shadow: 0px 6px 4px 1px rgba(0, 0, 0, 0.07)\n}\n.margen {\n    margin-top: 50px\n}\n.p1 {\n    padding: 1%\n}\n.p3 {\n    padding: 3%\n}\n.pl2 {\n    padding-left: 2%\n}\n.pr2 {\n    padding-right: 2%\n}\n.pl5 {\n    padding-left: 5%\n}\n.pr5 {\n    padding-right: 5%\n}\n.pl9 {\n    padding-left: 9%\n}\n.pr9 {\n    padding-right: 9%\n}\n.pl25 {\n    padding-left: 25%\n}\n.pr25 {\n    padding-right: 25%\n}\n.pl35 {\n    padding-left: 35%\n}\n.pr35 {\n    padding-right: 35%\n}\n.pr21 {\n    padding-right: 21%\n}\n.pr65 {\n    padding-left: 65%\n}\n.pl65 {\n    padding-right: 65%\n}\n.bg1 {\n    background-image: url(../img/Pattern-azul.jpg);\n    background-repeat: inherit\n}\n.bg2 {\n    background-color: #f3fafc\n}\n.bg3 {\n    background-color: dimgray\n}\n.bg4 {\n    background-color: #1da5b7\n}\n.bg5 {\n    background-color: #9a5919\n}\n.bg6 {\n    background-color: #fff\n}\n.c1 {\n    color: #1da5b7\n}\n.c2 {\n    color: #fff\n}\n.c3 {\n    color: white\n}\n.c4 {\n    color: #6c5851\n}\n.c5 {\n    color: #eca426\n}\n.c6 {\n    color: #212529\n}\n.display-3 {\n    opacity: 0.9;\n    font-size: 72px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1;\n    letter-spacing: -0.6px;\n    color: #5C463E\n}\nli span {\n    color: #212529\n}\nsection .dato {\n    font-size: 56px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.25;\n    letter-spacing: -0.5px;\n    text-align: center;\n    color: #ffffff\n}\n.secc2-sub-consec {\n    font-family: 'Open Sans';\n    font-size: 20px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: -0.4px;\n    text-align: center;\n    color: #6c5851;\n    padding-left: 30%;\n    padding-right: 30%\n}\n.secc2-subhed-consec {\n    font-family: 'Open Sans';\n    font-size: 18px;\n    font-weight: bold;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    text-align: center;\n    color: #1da5b7\n}\n.secc2-consec-txt {\n    font-family: 'Open Sans';\n    padding-left: 22%;\n    padding-right: 22%;\n    font-size: 16px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    text-align: center;\n    color: #212529\n}\n.secc3-heading {\n    padding-right: 3%;\n    padding-left: 3%\n}\n.secc4-heading {\n    padding-right: 10%\n}\np.secc4-txt {\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    color: #212529;\n    padding-right: 40%\n}\n.secc-4 {\n    text-align: left\n}\np.secc4-txt-2 {\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    color: #212529;\n    padding-right: 50%;\n    padding-top: 15px\n}\n.secc-5 {\n    text-align: left\n}\n.secc5-txt {\n    padding-right: 7%;\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    color: #212529\n}\n.secc5-txt-2 {\n    font-family: 'Open Sans';\n    font-size: 14px;\n    font-weight: bold;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: -0.1px;\n    color: #5c463e\n}\n.secc5-termometro {\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 4.63;\n    letter-spacing: -0.1px;\n    color: #5c463e\n}\n.secc-5-mobile-termometro>p {\n    transform: rotate(0deg);\n    font-family: 'Open Sans';\n    font-size: 9px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 70px;\n    letter-spacing: -0.1px;\n    color: #5c463e\n}\n.secc-6 {\n    text-align: left\n}\n \n.redondeado {\n    border-radius: 50%;\n    height: 20px;\n    width: 20px;\n    display: inline-block;\n    margin-left: 10px\n}\ndiv.secc-6 ul.secc-6-ul-1 {\n    margin-top: 30px\n}\nul.secc-6-ul-1 {\n    -webkit-padding-start: 20px;\n    -moz-padding-start: 20px;\n}\ndiv.secc-6 ul.secc-6-ul-1 li {\n    color: #1da5b7\n}\n.secc-6-niveles {\n    text-align: right;\n    list-style-type: none\n}\n.circulo1 {\n    background-color: #e95254\n}\n.circulo2 {\n    background-color: #faaf40\n}\n.circulo3 {\n    background-color: #f3e8d2\n}\n.secc-6-txt {\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    color: #212529;\n    padding-right: 40%\n}\n.secc-6-ul-1 {\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    color: #212529\n}\n.secc-6-Nivel-de-sobrepoblac {\n    font-family: 'Open Sans';\n    font-size: 16.8px;\n    font-weight: bold;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.14;\n    letter-spacing: normal;\n    text-align: right;\n    color: #523d36\n}\n.secc-6-Nivel-color {\n    font-family: 'Open Sans';\n    font-size: 9.8px;\n    font-weight: bold;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.14;\n    letter-spacing: normal;\n    text-align: right;\n    color: #523d36\n}\n.secc-7 {\n    text-align: left\n}\n.secc-7-text {\n    padding-right: 17%;\n    margin-bottom: 50px;\n}\na.Rectangle-11 {\n    width: 250px;\n    height: 60px;\n    border-radius: 100px;\n    background-color: #00a7b6;\n    border: 1px solid #00a7b6;\n    color: #fff;\n    line-height: 47px;\n    text-decoration: none;\n    outline: none;\n\n    cursor: hand;\n}\na span.VER-MS {\n    width: 224px;\n    height: 71px;\n    font-size: 32px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    text-align: center;\n    color: #ffffff;\n}\n.button2 {\n    background-color: white; \n    color: black; \n    border: 2px solid #008CBA;\n}\n\n.button2:hover {\n    background-color: #008CBA;\n    color: white;\n}\n.secc-7-text {\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    color: #212529\n}\n.costo {\n    font-family: 'Open Sans';\n    font-size: 50px;\n    font-weight: bold;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: -0.1px;\n    color: #eca426\n}\n.btn-info {\n    color: #fff;\n    background-color: #1da5b7;\n    border-color: #1da5b7\n}\n.btn {\n    padding: .375rem 1.75rem;\n    border-radius: 1rem\n}\n.navbar {\n    padding: 0.5rem 1rem;\n    padding-left: 0;\n    z-index: 1;\n    -webkit-transition: background-color .5s;\n     -moz-transition: background-color .5s;\n      -o-transition: background-color .5s\n}\n.secc-9-macho {\n    background-color: #f3fafc\n}\n.secc-9-hembra {\n    background-color: #fdf5f8\n}\n.secc-9-head {\n    padding-left: 15%;\n    padding-right: 15%\n}\n.secc-9-text {\n    padding-right: 15%;\n    padding-left: 14%;\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    color: #212529\n}\n.secc-9-sex {\n    font-size: 34px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    color: #392924\n}\n.secc-9-DESKTOP-IMG {\n    position: relative;\n    bottom: 50%!important;\n    right: 0!important;\n    max-width: 30%!important\n}\n.img-responsive {\n    max-width: 100%;\n    height: auto;\n    display: block\n}\n.secc-10-text {\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    color: #212529;\n    padding-right: 10%\n}\n.secc-10-text-2 {\n    margin: 0\n}\n.secc-10-text-fuente {\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: normal;\n    font-style: italic;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    color: #212529;\n    padding-right: 15%\n}\nh2.secc10-text-head {\n    text-align: left\n}\n\n.secc-12-borde {\n    border-top-left-radius: 15px;\n    border-top-right-radius: 15px;\n    margin-bottom: 0\n}\n.secc-12-head {\n    font-family: 'Open Sans';\n    font-size: 24px;\n    font-weight: bold;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    text-align: center;\n    color: #ffffff\n}\n.secc-12-text {\n    border-bottom-left-radius: 15px;\n    border-bottom-right-radius: 15px\n}\n.secc-12-tit-head {\n    font-family: 'Open Sans';\n    font-size: 21px;\n    font-weight: bold;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    text-align: center;\n    color: #49352f\n}\n.secc-12-precio {\n    font-family: 'Open Sans';\n    font-size: 21px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    text-align: center;\n    color: #49352f\n}\n.secc-12-fuente {\n    font-family: 'Open Sans';\n    font-size: 15px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    text-align: center;\n    color: #343434\n}\n.secc-12-costo {\n    font-family: 'Open Sans';\n    font-size: 20px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    text-align: center;\n    color: #343434\n}\n    \n.secc-14-head {\n    padding-left: 10%;\n    padding-right: 10%;\n        margin-top: 75px;\n\n}\n.secc-14-text {\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    text-align: center;\n    color: #212529;\n    padding-left: 30%;\n    padding-right: 30%\n}\n.contac-head {\n    font-family: OpenSans;\n    font-size: 20px;\n    font-weight: bold;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    color: #5c463e\n}\n.contact-text {\n    font-family: OpenSans;\n    font-size: 20px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    color: #49352f\n}\n.contact-text-head {\n    z-index: 0\n}\nheader.contact {\n    padding: 0\n}\nfooter {\n    background-image: url(../img/Pattern-negro.jpg);\n    background-repeat: inherit\n}\nfooter .foo-secc-1, .foo-secc-2, .foo-secc-3 {\n    text-align: left;\n    color: #fff\n}\nfooter .foo-secc-1 {\n    padding: 5%;\n    padding-left: 6%;\n    padding-right: 6%\n}\nfooter .foo-secc-2 {\n    padding: 5%;\n    padding-left: 3%;\n    padding-right: 3%\n}\nfooter .foo-secc-3 {\n    padding: 5%\n}\nfooter h5 {\n    font-family: 'Open Sans';\n    font-size: 17px;\n    font-weight: 800;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal;\n    padding-bottom: 20px\n}\nfooter p {\n    font-family: 'Open Sans';\n    font-size: 16px;\n    font-weight: 600;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal\n}\nfooter p.secc-1-head {\n    font-family: 'Open Sans';\n    font-size: 17px;\n    font-weight: bold;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: normal;\n    letter-spacing: normal\n}\nheader.contact {\n    padding: 0;\n    padding-top: 70px\n}\n.contact-text-head {\n    padding-top: 100px!important\n}\ndiv.container-perrito-foo {\n    position: absolute;\n    top: 7%;\n    right: 0%;\n    z-index: -1\n}\n\n.secc-MITOS {\n    padding-bottom: 10%;\n}\n\n/* mitos*/ \n.caja-texto {\n    font-family: 'Open Sans';\n    font-size: 19px;\n    font-weight: normal;\n    font-style: normal;\n    font-stretch: normal;\n    line-height: 1.5;\n    letter-spacing: -0.3px;\n    color: #212529;\n    padding-top:100px;\n    border-radius: 15px; \n    box-shadow: 0 10px 8px 0 #DCEEF5, 0 0px 20px 0 #DCEEF5;\n    text-align: left;\n}\n\n.caja-texto h4 {\n    font-family: 'Baloo Tammudu';\n    font-weight: inherit;\n}\n.h-conta {\n    height: auto;\n}\n.mitos {\n    position: relative; \n    top: 90px; \n    bottom: 0;\n    left: 0;\n    right: 0;\n}\n.p-25 {\n    padding-right: 25%;\n}\n.tel {\n    color: white;\n}\na:link {\n    text-decoration: none;\n}\n\na:visited {\n    text-decoration: none;\n}\n\na:hover {\n    text-decoration: none;\n}\n\na:active {\n    text-decoration: none;\n}\n@media (min-width:528px) and (max-width:767px) {\n    .secc-12-p-mobile {\n        padding-top: 15%!important;\n        padding-bottom: 15%!important\n    }\n    .secc-9-div-2-img {\n        max-width: 50%!important\n    }\n    .secc-5-mobile-termometro > p {\n        margin-left: 15px!important;\n        margin-right: 15px!important\n    }\n    .secc-5-mobile-termometro>p {\n        padding: 0 25px!important\n    }\n    div.container-perrito-foo {\n        position: relative!important;\n        top: 0!important;\n        left: 115px!important;\n        right: 0\n    }\n}\n@media (min-width:528px) and (max-width:991px) {\n    .secc-12-balanza {\n        max-width: 70%!important\n    }\n    .secc-12-p-mobile {\n        padding-top: 14%!important;\n        padding-bottom: 14%!important\n    }\n}\n@media (min-width:576px) {\n    .secc-9-div-2-img {\n        max-width: 50%!important\n    }\n}\n@media (max-width:575px) {\n    .secc-9-div-2-img {\n        max-width: 70%!important\n    }\n    .secc-9-div-2-img {\n        position: absolute;\n        right: 15%!important;\n        bottom: -30px!important;\n        z-index: 1!important\n    }\n    .secc-5-mobile-termometro>p {\n        padding: 7px!important\n    }\n    div.container-perrito-foo {\n        position: relative!important;\n        top: 0!important;\n        right: 0!important;\n        left: 0!important\n    }\n\n    \n    .p-mibile {\n        padding-top: 50px;\n    }\n}\n@media (min-width:568px) {\n    .secc-9-div-2-img {\n        max-width: 60%!important;\n        position: absolute;\n        right: 20%!important;\n        bottom: -65px!important;\n        z-index: 1!important\n    }\n   \n}\n@media (max-width:768px) {\n    ::-webkit-scrollbar {\n        display: none\n    }\n    \n    \n    .logo-perro {\n        max-width: 100%!important;\n        position: relative!important;\n        top: 25px!important;\n        right: 0!important;\n\n    }\n    .Contacto {\n        padding: 10px!important;\n        padding-top: 70px!important\n    }\n    header, section {\n        padding-top: 50px!important;\n        padding-bottom: 50px!important\n    }\n    .sabiasque {\n        padding-top: 50px;\n    }\n    section .dato {\n        font-size: 28px!important\n    }\n    .display-3 {\n        font-size: 2.3rem!important\n    }\n    footer {\n        text-align: center!important\n    }\n    .logo-left {\n        position: relative!important\n    }\n    img.header-img {\n        padding-top: 30px!important;\n        padding-bottom: 30px!important\n    }\n    .consec-txt {\n        padding-left: 1%!important;\n        padding-right: 1%!important\n    }\n    .head-mbl-logo, .head-mbl-perrito {\n        margin-top: 10%!important\n    }\n    .head-mbl-perrito-img {\n        max-width: 100%!important\n    }\n    .secc2-sub-consec {\n        padding-left: 5%!important;\n        padding-right: 5%!important\n    }\n    .secc2-consec-txt {\n        padding-left: 3%!important;\n        padding-right: 3%!important\n    }\n    .secc3-heading {\n        padding-right: 1%!important;\n        padding-left: 1%!important\n    }\n    .secc-4 {\n        text-align: center!important\n    }\n    p.secc4-txt {\n        padding-right: 13%!important;\n        padding-left: 13%!important\n    }\n    p.secc4-txt-2 {\n        padding-right: 20%!important;\n        padding-left: 20%!important\n    }\n    .secc4-heading {\n        padding-right: 1%!important;\n        padding-left: 1%!important\n    }\n    .secc-4-Perritos-MOBILE {\n        padding-top: 0px!important;\n        margin-bottom: 3rem!important\n    }\n    .secc-4-txt2-MOBILE {\n        font-family: 'Open Sans'!important;\n        font-size: 22px!important;\n        font-weight: bold!important;\n        font-style: normal!important;\n        font-stretch: normal!important;\n        line-height: normal!important;\n        letter-spacing: normal!important;\n        text-align: center!important;\n        color: #49352f!important\n    }\n    .secc-5 {\n        text-align: center!important\n    }\n    .secc5-txt {\n        padding-right: 12%!important;\n        padding-left: 12%!important;\n        padding-bottom: 1rem!important\n    }\n    .secc-5-mobile-termometro {\n        display: inline-flex!important\n    }\n    .secc-5-mobile-termometro>p {\n        transform: rotate(0deg)!important;\n        font-family: 'Open Sans'!important;\n        font-size: 9px!important;\n        font-weight: 600!important;\n        font-style: normal!important;\n        font-stretch: normal!important;\n        line-height: 6.4!important;\n        letter-spacing: -0.1px!important;\n        color: #5c463e!important\n    }\n    .secc-5-perros-termometro {\n        padding-top: 0px!important\n    }\n    .secc5-termometro {\n        margin-top: 50px!important\n    }\n    .secc-6 {\n        text-align: center!important\n    }\n    .secc-6-txt {\n        padding-right: 10%!important;\n        padding-left: 10%!important\n    }\n    .secc-6-ul-1 {\n        padding-left: 20%!important\n    }\n    .secc-6-map {\n        max-width: 100%!important\n    }\n    .secc-6-map-conta {\n        padding: 2%!important\n    }\n    .redondeado {\n        height: 10px!important;\n        width: 10px!important\n    }\n    .secc-7 {\n        text-align: center!important\n    }\n    .secc-7-conta {\n        text-align: center!important\n    }\n    .secc-7-text {\n        padding-right: 5%!important;\n        padding-left: 5%!important;\n        text-align: center!important\n    }\n    h2.secc10-text-head {\n        text-align: center !important;\n    }\n    .secc-7-MOBILE {\n        width: 160px!important;\n        height: 40px!important\n    }\n    .Rectangle-11 {\n        padding-top: 10PX;\n        padding-bottom: 0;\n        padding-left: 30px;\n        padding-right: 30px;\n    }\n    .secc-7-MOBILE span.VER-MS {\n        font-size: 20px!important;\n        line-height: 2!important\n    }\n    .secc-7-perrito-dudos {\n        max-width: 100%!important\n    } \n     .mito-perrito {\n        max-width: 70%!important\n    } \n    footer .foo-secc-1, .foo-secc-2, .foo-secc-3 {\n        padding-top: 5%!important;\n        text-align: center!important\n    }\n    footer p {\n        font-family: 'Open Sans'!important;\n        font-size: 12px!important;\n        font-weight: normal!important;\n        font-style: normal!important;\n        font-stretch: normal!important;\n        line-height: normal!important;\n        letter-spacing: normal!important;\n        color: #ffffff!important\n    }\n    .secc-1-head {\n        font-family: 'Open Sans'!important;\n        font-size: 12px!important;\n        font-weight: bold!important;\n        font-style: normal!important;\n        font-stretch: normal!important;\n        line-height: normal!important;\n        letter-spacing: normal!important;\n        color: #ffffff!important\n    }\n    .secc-1-sub-head {\n        font-family: 'Open Sans';\n        font-size: 12px!important;\n        font-weight: 600!important;\n        font-style: normal!important;\n        font-stretch: normal!important;\n        line-height: normal!important;\n        letter-spacing: normal!important;\n        color: #ffffff!important\n    }\n    .secc-9-head {\n        padding-left: 5%!important;\n        padding-right: 5%!important\n    }\n    .secc-9-text {\n        padding-right: 10%!important;\n        padding-left: 10%!important\n    }\n    .secc-9-img-sex {\n        max-width: 13%!important\n    }\n    .secc-9-div-2 {\n        position: relative;\n        padding: 30px!important \n    }\n    section.secc-9 {\n        padding-bottom: 43px!important\n    }\n    section.secc-10 {\n        \n        padding-top: 43px!important;\n        \n    }\n    .secc-10-text-fuente {\n       font-size: 7.6px !important; \n        font-style: normal;\n        padding: 0\n       \n    }\n\n    .secc-10-text {\n        padding-right: 5%!important;\n        padding-left: 5%!important;\n        margin-bottom: -50px !important;\n        text-align: center !important;\n\n    }\n    .secc-10-img-1 {\n        max-width: 65%\n    }\n    .secc-10-img-2 {\n        max-width: 80%\n    }\n    .secc-10-img-3 {\n        max-width: 110%\n    }\n    .secc10-kilos {\n        font-size: 15px;\n        line-height: 1\n    }\n    .secc-10-precio-kilo {\n        font-size: 13px\n    }\n    .secc10-text-head {\n        text-align: center\n    }\n    .secc-12-costo {\n        font-size: 9.6px!important\n    }\n    .secc-14-head {\n        padding-left: 3%!important;\n        padding-right: 3%!important\n    }\n    .secc-14-text {\n        padding-left: 12%!important;\n        padding-right: 12%!important\n    }\n    .secc-12-fuente  {\n        font-size: 7.6px!important;\n    }  \n\n    .contact-text-head {\n        padding-top: 0px!important\n    }\n    .caja-texto {\n        height: auto;\n    }\n    .h-conta {\n        height: auto;\n    }\n    .mobile-pt {\n        padding-top: 75px;\n    }\n}\n@media (min-width:991px) {\n    .caja-texto {\n        height: 430px;\n    }\n    .h-conta {\n        height: 550px;\n    }\n    .secc-6-map  {\n        position: relative;\n        bottom: 230px;\n        right:  0px;\n        z-index: -1;\n    }\n     .secc-6-niveles-poblacion  {\n        position: relative;\n        bottom: 450px;\n        left: 0;\n    }\n    .secc-6 {\n        margin-bottom: -200px;\n    }\n    .logo {\n        top: 23%!important;\n        left: 5%!important;\n    }\n}\n@media (min-width:1200px) {\n    .logo {\n        top: 20%!important;\n    }\n}\n\n@media (max-width:992px) {\n    .display-3 {\n        font-size: 3.2rem\n    }\n    .bag-menu-img {\n        width: 110%!important;\n        height: 100vh!important;\n        background-image: url(../img/Pattern-azul.jpg)!important;\n        background-repeat: inherit;\n        z-index: -1!important;\n        position: fixed;\n        top: 0;\n        right: 0\n    }\n    #menu a {\n        font-family: arial;\n        text-decoration: none;\n        color: rgb(29, 165, 183);\n        margin-right: 20px;\n        z-index: -1\n    }\n    .navbar-toggler:not(:disabled):not(.disabled) {\n\t    outline: none;\n\t}\n    .nav-link {\n        color: #fff!important;\n        padding: 20px;\n        text-decoration: none;\n        font-size: 26px;\n        display: block;\n        transition: 0.3s;\n        padding-left: 40px!important;\n        font-weight: bold;\n        text-transform: uppercase\n    }\n    .nav-item.active {\n        margin-top: 50px\n    }\n    .navbar-nav {\n        margin: 0 auto\n    }\n    .secc-14-head {\n        margin-top: 30px;\n    }\n    .logo {\n        width: 60%!important;\n        position: relative!important;\n        top: 0!important;\n        left: 0!important;\n        padding-top: 125px\n    }\n    \n}\n@media (min-width:1600px) {\n    .logo {\n        top: 25%!important;\n        left: 15%!important;\n    }\n}\n@media (max-width:368px) {\n    img.secc-12-balanza {\n        margin-top: 10%\n}\n}\n@media (min-width:479px) and (max-width:767px) {\n    h6.secc-12-head {\n        height: 110px\n    }\n    .secc-12-p-mobile {\n        padding-top: 14%!important;\n        padding-bottom: 14%!important\n    }\n}\n@media (min-width:769px) {\n    section.secc-9 {\n        padding-bottom: 0\n    }\n    section.secc-9 {\n        padding-bottom: 0\n    }\n    section.secc-10 {\n        padding-top: 100px\n    }\n    .img-fluid.secc-6-map {\n        position: relative!important;\n        bottom: 200px!important;\n        left: 0px!important;\n        z-index: -1!important\n    }\n    .secc-6-txt {\n        padding-right: 0%!important\n    }\n    .secc-6-lista-posic {\n        position: relative!important;\n        bottom: 400px!important;\n        right: 0px!important\n    }\n    .secc-6 {\n        padding-bottom: 0;\n        margin-bottom: -200px\n    }\n    .contact-text-head {\n        padding-top: 150px!important\n    }\n\n}\n\n@media (min-width:769px) and (max-width:992px) {\n    .caja-texto {\n        height: auto ;\n    }\n    .h-conta {\n        height: auto ;\n    }\n}\n\n@media (min-width:992px) and (max-width:1200px) {\n    .secc-12-p-mobile {\n        padding-top: 10% !important;\n        padding-bottom: 10% !important\n    }\n}\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/estilos.css b/css/estilos.css
+--- a/css/estilos.css	(revision f337c2c8494761897a807aaa6a1d0f20919b6a94)
++++ b/css/estilos.css	(date 1653490675462)
+@@ -3,26 +3,37 @@
+     color: #212529;
+     font-family: 'Baloo Tammudu', cursive
+ }
+-header, section {
++
++header {
++    overflow: hidden
++}
++
++
++section {
+     padding-top: 100px;
+     padding-bottom: 100px
+ }
++
+ #navbar1 {
+     z-index: 999
+ }
++
+ #navbar2 {
+     z-index: 998
+ }
++
+ .nav-logo {
+     max-width: 50%
+ }
++
+ #menu {
+     width: 100%;
+-    height: 0px;
++    height: 0;
+     text-align: center;
+     min-width: 200px;
+     z-index: 2
+ }
++
+ #menu a {
+     font-family: arial;
+     text-decoration: none;
+@@ -30,157 +41,180 @@
+     margin-right: 20px
+ }
+ 
+-
+-
+ p.secc-10-precio-kilo {
+-        font-family:"Open Sans"!important;
+-    }
+-
+-
+-
+-
++    font-family: "Open Sans" !important
++}
+ 
+ #menu a.active {
+-    color: #F6A700 !important;
+-    cursor: default;
++    color: #f6a700 !important;
++    cursor: default
+ }
+ 
+ .contact-link:hover {
+-    color: #1da5b7 !important;
++    color: #1da5b7 !important
+ }
+-
+-
+-
+ 
+ .logo {
+     position: absolute;
+-    top: 15%;
+-    left: 5%;
+-    width: 30%;
+-    max-width: 550px;
+-
++    top: 30%;
++    left: 10%;
++    width: 100%;
++    max-width: 300px;
++    padding-top: 100px
+ }
+-
+ 
+ img.logo-perro {
+     float: right
+ }
++
+ .fixed {
+     position: fixed;
+     top: 0;
+-    background-color: #ffffff;
+-    -webkit-box-shadow: 0px 6px 4px 1px rgba(0, 0, 0, 0.07);
+-    -moz-box-shadow: 0px 6px 4px 1px rgba(0, 0, 0, 0.07);
+-    box-shadow: 0px 6px 4px 1px rgba(0, 0, 0, 0.07)
++    background-color: #fff;
++    -webkit-box-shadow: 0 6px 4px 1px rgba(0, 0, 0, .07);
++    -moz-box-shadow: 0 6px 4px 1px rgba(0, 0, 0, .07);
++    box-shadow: 0 6px 4px 1px rgba(0, 0, 0, .07)
+ }
++
+ .margen {
+     margin-top: 50px
+ }
++
+ .p1 {
+     padding: 1%
+ }
++
+ .p3 {
+     padding: 3%
+ }
++
+ .pl2 {
+     padding-left: 2%
+ }
++
+ .pr2 {
+     padding-right: 2%
+ }
++
+ .pl5 {
+     padding-left: 5%
+ }
++
+ .pr5 {
+     padding-right: 5%
+ }
++
+ .pl9 {
+     padding-left: 9%
+ }
++
+ .pr9 {
+     padding-right: 9%
+ }
++
+ .pl25 {
+     padding-left: 25%
+ }
++
+ .pr25 {
+     padding-right: 25%
+ }
++
+ .pl35 {
+     padding-left: 35%
+ }
++
+ .pr35 {
+     padding-right: 35%
+ }
++
+ .pr21 {
+     padding-right: 21%
+ }
++
+ .pr65 {
+     padding-left: 65%
+ }
++
+ .pl65 {
+     padding-right: 65%
+ }
++
+ .bg1 {
+     background-image: url(../img/Pattern-azul.jpg);
+     background-repeat: inherit
+ }
++
+ .bg2 {
+-    background-color: #f3fafc
++    background-color: #f1fafc
+ }
++
+ .bg3 {
+-    background-color: dimgray
++    background-color: #696969
+ }
++
+ .bg4 {
+     background-color: #1da5b7
+ }
++
+ .bg5 {
+     background-color: #9a5919
+ }
++
+ .bg6 {
+     background-color: #fff
+ }
++
+ .c1 {
+     color: #1da5b7
+ }
++
+ .c2 {
+     color: #fff
+ }
++
+ .c3 {
+-    color: white
++    color: #fff
+ }
++
+ .c4 {
+     color: #6c5851
+ }
++
+ .c5 {
+     color: #eca426
+ }
++
+ .c6 {
+     color: #212529
+ }
++
+ .display-3 {
+-    opacity: 0.9;
+-    font-size: 72px;
+-    font-weight: normal;
++    opacity: .9;
++    font-size: 3.8rem;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1;
+-    letter-spacing: -0.6px;
+-    color: #5C463E
++    letter-spacing: -.6px;
++    color: #5c463e
+ }
++
+ li span {
+     color: #212529
+ }
++
+ section .dato {
+     font-size: 56px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.25;
+-    letter-spacing: -0.5px;
++    letter-spacing: -.5px;
+     text-align: center;
+-    color: #ffffff
++    color: #fff
+ }
++
+ .secc2-sub-consec {
+     font-family: 'Open Sans';
+     font-size: 20px;
+@@ -188,16 +222,17 @@
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+-    letter-spacing: -0.4px;
++    letter-spacing: -.4px;
+     text-align: center;
+     color: #6c5851;
+     padding-left: 30%;
+     padding-right: 30%
+ }
++
+ .secc2-subhed-consec {
+     font-family: 'Open Sans';
+     font-size: 18px;
+-    font-weight: bold;
++    font-weight: 700;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+@@ -205,40 +240,46 @@
+     text-align: center;
+     color: #1da5b7
+ }
++
+ .secc2-consec-txt {
+     font-family: 'Open Sans';
+     padding-left: 22%;
+     padding-right: 22%;
+     font-size: 16px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     text-align: center;
+     color: #212529
+ }
++
+ .secc3-heading {
+     padding-right: 3%;
+     padding-left: 3%
+ }
++
+ .secc4-heading {
+     padding-right: 10%
+ }
++
+ p.secc4-txt {
+     font-family: 'Open Sans';
+     font-size: 16px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     color: #212529;
+     padding-right: 40%
+ }
++
+ .secc-4 {
+     text-align: left
+ }
++
+ p.secc4-txt-2 {
+     font-family: 'Open Sans';
+     font-size: 16px;
+@@ -246,35 +287,39 @@
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     color: #212529;
+     padding-right: 50%;
+     padding-top: 15px
+ }
++
+ .secc-5 {
+     text-align: left
+ }
++
+ .secc5-txt {
+     padding-right: 7%;
+     font-family: 'Open Sans';
+     font-size: 16px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     color: #212529
+ }
++
+ .secc5-txt-2 {
+     font-family: 'Open Sans';
+     font-size: 14px;
+-    font-weight: bold;
++    font-weight: 700;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+-    letter-spacing: -0.1px;
++    letter-spacing: -.1px;
+     color: #5c463e
+ }
++
+ .secc5-termometro {
+     font-family: 'Open Sans';
+     font-size: 16px;
+@@ -282,24 +327,26 @@
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 4.63;
+-    letter-spacing: -0.1px;
++    letter-spacing: -.1px;
+     color: #5c463e
+ }
++
+ .secc-5-mobile-termometro>p {
+-    transform: rotate(0deg);
++    transform: rotate(0);
+     font-family: 'Open Sans';
+     font-size: 9px;
+     font-weight: 600;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 70px;
+-    letter-spacing: -0.1px;
++    letter-spacing: -.1px;
+     color: #5c463e
+ }
++
+ .secc-6 {
+     text-align: left
+ }
+- 
++
+ .redondeado {
+     border-radius: 50%;
+     height: 20px;
+@@ -307,29 +354,37 @@
+     display: inline-block;
+     margin-left: 10px
+ }
++
+ div.secc-6 ul.secc-6-ul-1 {
+     margin-top: 30px
+ }
++
+ ul.secc-6-ul-1 {
+     -webkit-padding-start: 20px;
+-    -moz-padding-start: 20px;
++    -moz-padding-start: 20px
+ }
++
+ div.secc-6 ul.secc-6-ul-1 li {
+     color: #1da5b7
+ }
++
+ .secc-6-niveles {
+     text-align: right;
+     list-style-type: none
+ }
++
+ .circulo1 {
+     background-color: #e95254
+ }
++
+ .circulo2 {
+     background-color: #faaf40
+ }
++
+ .circulo3 {
+     background-color: #f3e8d2
+ }
++
+ .secc-6-txt {
+     font-family: 'Open Sans';
+     font-size: 16px;
+@@ -337,10 +392,11 @@
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     color: #212529;
+     padding-right: 40%
+ }
++
+ .secc-6-ul-1 {
+     font-family: 'Open Sans';
+     font-size: 16px;
+@@ -348,13 +404,14 @@
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     color: #212529
+ }
++
+ .secc-6-Nivel-de-sobrepoblac {
+     font-family: 'Open Sans';
+     font-size: 16.8px;
+-    font-weight: bold;
++    font-weight: 700;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.14;
+@@ -362,10 +419,11 @@
+     text-align: right;
+     color: #523d36
+ }
++
+ .secc-6-Nivel-color {
+     font-family: 'Open Sans';
+     font-size: 9.8px;
+-    font-weight: bold;
++    font-weight: 700;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.14;
+@@ -373,13 +431,16 @@
+     text-align: right;
+     color: #523d36
+ }
++
+ .secc-7 {
+     text-align: left
+ }
++
+ .secc-7-text {
+     padding-right: 17%;
+-    margin-bottom: 50px;
++    margin-bottom: 50px
+ }
++
+ a.Rectangle-11 {
+     width: 250px;
+     height: 60px;
+@@ -389,32 +450,34 @@
+     color: #fff;
+     line-height: 47px;
+     text-decoration: none;
+-    outline: none;
+-
+-    cursor: hand;
++    outline: 0;
++    cursor: hand
+ }
++
+ a span.VER-MS {
+     width: 224px;
+     height: 71px;
+     font-size: 32px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: center;
+-    color: #ffffff;
++    color: #fff
+ }
++
+ .button2 {
+-    background-color: white; 
+-    color: black; 
+-    border: 2px solid #008CBA;
++    background-color: #fff;
++    color: #000;
++    border: 2px solid #008cba
+ }
+ 
+ .button2:hover {
+-    background-color: #008CBA;
+-    color: white;
++    background-color: #008cba;
++    color: #fff
+ }
++
+ .secc-7-text {
+     font-family: 'Open Sans';
+     font-size: 16px;
+@@ -422,78 +485,90 @@
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     color: #212529
+ }
++
+ .costo {
+     font-family: 'Open Sans';
+     font-size: 50px;
+-    font-weight: bold;
++    font-weight: 700;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+-    letter-spacing: -0.1px;
++    letter-spacing: -.1px;
+     color: #eca426
+ }
++
+ .btn-info {
+     color: #fff;
+     background-color: #1da5b7;
+     border-color: #1da5b7
+ }
++
+ .btn {
+     padding: .375rem 1.75rem;
+     border-radius: 1rem
+ }
++
+ .navbar {
+-    padding: 0.5rem 1rem;
++    padding: .5rem 1rem;
+     padding-left: 0;
+     z-index: 1;
+     -webkit-transition: background-color .5s;
+-     -moz-transition: background-color .5s;
+-      -o-transition: background-color .5s
++    -moz-transition: background-color .5s;
++    -o-transition: background-color .5s
+ }
++
+ .secc-9-macho {
+     background-color: #f3fafc
+ }
++
+ .secc-9-hembra {
+     background-color: #fdf5f8
+ }
++
+ .secc-9-head {
+     padding-left: 15%;
+     padding-right: 15%
+ }
++
+ .secc-9-text {
+     padding-right: 15%;
+     padding-left: 14%;
+     font-family: 'Open Sans';
+     font-size: 16px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     color: #212529
+ }
++
+ .secc-9-sex {
+     font-size: 34px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     color: #392924
+ }
++
+ .secc-9-DESKTOP-IMG {
+     position: relative;
+-    bottom: 50%!important;
+-    right: 0!important;
+-    max-width: 30%!important
++    bottom: 50% !important;
++    right: 0 !important;
++    max-width: 30% !important
+ }
++
+ .img-responsive {
+     max-width: 100%;
+     height: auto;
+     display: block
+ }
++
+ .secc-10-text {
+     font-family: 'Open Sans';
+     font-size: 16px;
+@@ -501,24 +576,27 @@
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     color: #212529;
+     padding-right: 10%
+ }
++
+ .secc-10-text-2 {
+     margin: 0
+ }
++
+ .secc-10-text-fuente {
+     font-family: 'Open Sans';
+     font-size: 16px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: italic;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     color: #212529;
+     padding-right: 15%
+ }
++
+ h2.secc10-text-head {
+     text-align: left
+ }
+@@ -528,25 +606,28 @@
+     border-top-right-radius: 15px;
+     margin-bottom: 0
+ }
++
+ .secc-12-head {
+     font-family: 'Open Sans';
+     font-size: 24px;
+-    font-weight: bold;
++    font-weight: 700;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: center;
+-    color: #ffffff
++    color: #fff
+ }
++
+ .secc-12-text {
+     border-bottom-left-radius: 15px;
+     border-bottom-right-radius: 15px
+ }
++
+ .secc-12-tit-head {
+     font-family: 'Open Sans';
+     font-size: 21px;
+-    font-weight: bold;
++    font-weight: 700;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+@@ -554,10 +635,11 @@
+     text-align: center;
+     color: #49352f
+ }
++
+ .secc-12-precio {
+     font-family: 'Open Sans';
+     font-size: 21px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+@@ -565,10 +647,11 @@
+     text-align: center;
+     color: #49352f
+ }
++
+ .secc-12-fuente {
+     font-family: 'Open Sans';
+     font-size: 15px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+@@ -576,6 +659,7 @@
+     text-align: center;
+     color: #343434
+ }
++
+ .secc-12-costo {
+     font-family: 'Open Sans';
+     font-size: 20px;
+@@ -587,13 +671,13 @@
+     text-align: center;
+     color: #343434
+ }
+-    
++
+ .secc-14-head {
+     padding-left: 10%;
+     padding-right: 10%;
+-        margin-top: 75px;
+-
++    margin-top: 75px
+ }
++
+ .secc-14-text {
+     font-family: 'Open Sans';
+     font-size: 16px;
+@@ -601,59 +685,71 @@
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     text-align: center;
+     color: #212529;
+     padding-left: 30%;
+     padding-right: 30%
+ }
++
+ .contac-head {
+     font-family: OpenSans;
+     font-size: 20px;
+-    font-weight: bold;
++    font-weight: 700;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     color: #5c463e
+ }
++
+ .contact-text {
+     font-family: OpenSans;
+     font-size: 20px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     color: #49352f
+ }
++
+ .contact-text-head {
+     z-index: 0
+ }
++
+ header.contact {
+     padding: 0
+ }
++
+ footer {
+     background-image: url(../img/Pattern-negro.jpg);
+     background-repeat: inherit
+ }
+-footer .foo-secc-1, .foo-secc-2, .foo-secc-3 {
++
++.foo-secc-2,
++.foo-secc-3,
++footer .foo-secc-1 {
+     text-align: left;
+     color: #fff
+ }
++
+ footer .foo-secc-1 {
+     padding: 5%;
+     padding-left: 6%;
+     padding-right: 6%
+ }
++
+ footer .foo-secc-2 {
+     padding: 5%;
+     padding-left: 3%;
+     padding-right: 3%
+ }
++
+ footer .foo-secc-3 {
+     padding: 5%
+ }
++
+ footer h5 {
+     font-family: 'Open Sans';
+     font-size: 17px;
+@@ -664,6 +760,7 @@
+     letter-spacing: normal;
+     padding-bottom: 20px
+ }
++
+ footer p {
+     font-family: 'Open Sans';
+     font-size: 16px;
+@@ -673,592 +770,695 @@
+     line-height: normal;
+     letter-spacing: normal
+ }
++
+ footer p.secc-1-head {
+     font-family: 'Open Sans';
+     font-size: 17px;
+-    font-weight: bold;
++    font-weight: 700;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal
+ }
++
+ header.contact {
+     padding: 0;
+     padding-top: 70px
+ }
++
+ .contact-text-head {
+-    padding-top: 100px!important
++    padding-top: 100px !important
+ }
++
+ div.container-perrito-foo {
+     position: absolute;
+     top: 7%;
+-    right: 0%;
++    right: 0;
+     z-index: -1
+ }
+ 
+ .secc-MITOS {
+-    padding-bottom: 10%;
++    padding-bottom: 10%
+ }
+ 
+-/* mitos*/ 
+ .caja-texto {
+     font-family: 'Open Sans';
+     font-size: 19px;
+-    font-weight: normal;
++    font-weight: 400;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.5;
+-    letter-spacing: -0.3px;
++    letter-spacing: -.3px;
+     color: #212529;
+-    padding-top:100px;
+-    border-radius: 15px; 
+-    box-shadow: 0 10px 8px 0 #DCEEF5, 0 0px 20px 0 #DCEEF5;
+-    text-align: left;
++    padding-top: 100px;
++    border-radius: 15px;
++    box-shadow: 0 10px 8px 0 #dceef5, 0 0 20px 0 #dceef5;
++    text-align: left
+ }
+ 
+ .caja-texto h4 {
+     font-family: 'Baloo Tammudu';
+-    font-weight: inherit;
++    font-weight: inherit
+ }
++
+ .h-conta {
+-    height: auto;
++    height: auto
+ }
++
+ .mitos {
+-    position: relative; 
+-    top: 90px; 
++    position: relative;
++    top: 90px;
+     bottom: 0;
+     left: 0;
+-    right: 0;
++    right: 0
+ }
++
+ .p-25 {
+-    padding-right: 25%;
++    padding-right: 25%
+ }
++
+ .tel {
+-    color: white;
++    color: #fff
+ }
++
+ a:link {
+-    text-decoration: none;
++    text-decoration: none
+ }
+ 
+ a:visited {
+-    text-decoration: none;
++    text-decoration: none
+ }
+ 
+ a:hover {
+-    text-decoration: none;
++    text-decoration: none
+ }
+ 
+ a:active {
+-    text-decoration: none;
++    text-decoration: none
+ }
++
+ @media (min-width:528px) and (max-width:767px) {
+     .secc-12-p-mobile {
+-        padding-top: 15%!important;
+-        padding-bottom: 15%!important
++        padding-top: 15% !important;
++        padding-bottom: 15% !important
+     }
++
+     .secc-9-div-2-img {
+-        max-width: 50%!important
++        max-width: 50% !important
+     }
+-    .secc-5-mobile-termometro > p {
+-        margin-left: 15px!important;
+-        margin-right: 15px!important
++
++    .secc-5-mobile-termometro>p {
++        margin-left: 15px !important;
++        margin-right: 15px !important
+     }
++
+     .secc-5-mobile-termometro>p {
+-        padding: 0 25px!important
++        padding: 0 25px !important
+     }
++
+     div.container-perrito-foo {
+-        position: relative!important;
+-        top: 0!important;
+-        left: 115px!important;
++        position: relative !important;
++        top: 0 !important;
++        left: 115px !important;
+         right: 0
+     }
+ }
++
+ @media (min-width:528px) and (max-width:991px) {
+     .secc-12-balanza {
+-        max-width: 70%!important
++        max-width: 70% !important
+     }
++
+     .secc-12-p-mobile {
+-        padding-top: 14%!important;
+-        padding-bottom: 14%!important
++        padding-top: 14% !important;
++        padding-bottom: 14% !important
+     }
+ }
++
+ @media (min-width:576px) {
+     .secc-9-div-2-img {
+-        max-width: 50%!important
++        max-width: 50% !important
+     }
+ }
++
+ @media (max-width:575px) {
+     .secc-9-div-2-img {
+-        max-width: 70%!important
++        max-width: 70% !important
+     }
++
+     .secc-9-div-2-img {
+         position: absolute;
+-        right: 15%!important;
+-        bottom: -30px!important;
+-        z-index: 1!important
++        right: 15% !important;
++        bottom: -30px !important;
++        z-index: 1 !important
+     }
++
+     .secc-5-mobile-termometro>p {
+-        padding: 7px!important
++        padding: 7px !important
+     }
++
+     div.container-perrito-foo {
+-        position: relative!important;
+-        top: 0!important;
+-        right: 0!important;
+-        left: 0!important
++        position: relative !important;
++        top: 0 !important;
++        right: 0 !important;
++        left: 0 !important
+     }
+ 
+-    
+     .p-mibile {
+-        padding-top: 50px;
++        padding-top: 50px
+     }
+ }
++
+ @media (min-width:568px) {
+     .secc-9-div-2-img {
+-        max-width: 60%!important;
++        max-width: 60% !important;
+         position: absolute;
+-        right: 20%!important;
+-        bottom: -65px!important;
+-        z-index: 1!important
++        right: 20% !important;
++        bottom: -65px !important;
++        z-index: 1 !important
+     }
+-   
+ }
++
+ @media (max-width:768px) {
+     ::-webkit-scrollbar {
+         display: none
+     }
+-    
+-    
+-    .logo-perro {
+-        max-width: 100%!important;
+-        position: relative!important;
+-        top: 25px!important;
+-        right: 0!important;
++
++    .logo {
++        padding-top: 25px
++    }
++
+ 
+-    }
++
+     .Contacto {
+-        padding: 10px!important;
+-        padding-top: 70px!important
++        padding: 10px !important;
++        padding-top: 70px !important
+     }
+-    header, section {
+-        padding-top: 50px!important;
+-        padding-bottom: 50px!important
++
++    header,
++    section {
++        padding-top: 50px !important;
++        padding-bottom: 50px !important
+     }
++
+     .sabiasque {
+-        padding-top: 50px;
++        padding-top: 50px
+     }
++
+     section .dato {
+-        font-size: 28px!important
++        font-size: 28px !important
+     }
++
+     .display-3 {
+-        font-size: 2.3rem!important
++        font-size: 2.3rem !important
+     }
++
+     footer {
+-        text-align: center!important
++        text-align: center !important
+     }
++
+     .logo-left {
+-        position: relative!important
++        position: relative !important
+     }
++
+     img.header-img {
+-        padding-top: 30px!important;
+-        padding-bottom: 30px!important
++        padding-top: 30px !important;
++        padding-bottom: 30px !important
+     }
++
+     .consec-txt {
+-        padding-left: 1%!important;
+-        padding-right: 1%!important
++        padding-left: 1% !important;
++        padding-right: 1% !important
+     }
+-    .head-mbl-logo, .head-mbl-perrito {
+-        margin-top: 10%!important
++
++    .head-mbl-logo,
++    .head-mbl-perrito {
++        margin-top: 5% !important
+     }
++
+     .head-mbl-perrito-img {
+-        max-width: 100%!important
++        max-width: 100% !important
+     }
++
+     .secc2-sub-consec {
+-        padding-left: 5%!important;
+-        padding-right: 5%!important
++        padding-left: 5% !important;
++        padding-right: 5% !important
+     }
++
+     .secc2-consec-txt {
+-        padding-left: 3%!important;
+-        padding-right: 3%!important
++        padding-left: 3% !important;
++        padding-right: 3% !important
+     }
++
+     .secc3-heading {
+-        padding-right: 1%!important;
+-        padding-left: 1%!important
++        padding-right: 1% !important;
++        padding-left: 1% !important
+     }
++
+     .secc-4 {
+-        text-align: center!important
++        text-align: center !important
+     }
++
+     p.secc4-txt {
+-        padding-right: 13%!important;
+-        padding-left: 13%!important
++        padding-right: 13% !important;
++        padding-left: 13% !important
+     }
++
+     p.secc4-txt-2 {
+-        padding-right: 20%!important;
+-        padding-left: 20%!important
++        padding-right: 20% !important;
++        padding-left: 20% !important
+     }
++
+     .secc4-heading {
+-        padding-right: 1%!important;
+-        padding-left: 1%!important
++        padding-right: 1% !important;
++        padding-left: 1% !important
+     }
++
+     .secc-4-Perritos-MOBILE {
+-        padding-top: 0px!important;
+-        margin-bottom: 3rem!important
++        padding-top: 0 !important;
++        margin-bottom: 3rem !important
+     }
++
+     .secc-4-txt2-MOBILE {
+-        font-family: 'Open Sans'!important;
+-        font-size: 22px!important;
+-        font-weight: bold!important;
+-        font-style: normal!important;
+-        font-stretch: normal!important;
+-        line-height: normal!important;
+-        letter-spacing: normal!important;
+-        text-align: center!important;
+-        color: #49352f!important
++        font-family: 'Open Sans' !important;
++        font-size: 22px !important;
++        font-weight: 700 !important;
++        font-style: normal !important;
++        font-stretch: normal !important;
++        line-height: normal !important;
++        letter-spacing: normal !important;
++        text-align: center !important;
++        color: #49352f !important
+     }
++
+     .secc-5 {
+-        text-align: center!important
++        text-align: center !important
+     }
++
+     .secc5-txt {
+-        padding-right: 12%!important;
+-        padding-left: 12%!important;
+-        padding-bottom: 1rem!important
++        padding-right: 12% !important;
++        padding-left: 12% !important;
++        padding-bottom: 1rem !important
+     }
++
+     .secc-5-mobile-termometro {
+-        display: inline-flex!important
++        display: inline-flex !important
+     }
++
+     .secc-5-mobile-termometro>p {
+-        transform: rotate(0deg)!important;
+-        font-family: 'Open Sans'!important;
+-        font-size: 9px!important;
+-        font-weight: 600!important;
+-        font-style: normal!important;
+-        font-stretch: normal!important;
+-        line-height: 6.4!important;
+-        letter-spacing: -0.1px!important;
+-        color: #5c463e!important
++        transform: rotate(0) !important;
++        font-family: 'Open Sans' !important;
++        font-size: 9px !important;
++        font-weight: 600 !important;
++        font-style: normal !important;
++        font-stretch: normal !important;
++        line-height: 6.4 !important;
++        letter-spacing: -.1px !important;
++        color: #5c463e !important
+     }
++
+     .secc-5-perros-termometro {
+-        padding-top: 0px!important
++        padding-top: 0 !important
+     }
++
+     .secc5-termometro {
+-        margin-top: 50px!important
++        margin-top: 50px !important
+     }
++
+     .secc-6 {
+-        text-align: center!important
++        text-align: center !important
+     }
++
+     .secc-6-txt {
+-        padding-right: 10%!important;
+-        padding-left: 10%!important
++        padding-right: 10% !important;
++        padding-left: 10% !important
+     }
++
+     .secc-6-ul-1 {
+-        padding-left: 20%!important
++        padding-left: 20% !important
+     }
++
+     .secc-6-map {
+-        max-width: 100%!important
++        max-width: 100% !important
+     }
++
+     .secc-6-map-conta {
+-        padding: 2%!important
++        padding: 2% !important
+     }
++
+     .redondeado {
+-        height: 10px!important;
+-        width: 10px!important
++        height: 10px !important;
++        width: 10px !important
+     }
++
+     .secc-7 {
+-        text-align: center!important
++        text-align: center !important
+     }
++
+     .secc-7-conta {
+-        text-align: center!important
++        text-align: center !important
+     }
++
+     .secc-7-text {
+-        padding-right: 5%!important;
+-        padding-left: 5%!important;
+-        text-align: center!important
++        padding-right: 5% !important;
++        padding-left: 5% !important;
++        text-align: center !important
+     }
++
+     h2.secc10-text-head {
+-        text-align: center !important;
++        text-align: center !important
+     }
++
+     .secc-7-MOBILE {
+-        width: 160px!important;
+-        height: 40px!important
++        width: 160px !important;
++        height: 40px !important
+     }
++
+     .Rectangle-11 {
+         padding-top: 10PX;
+         padding-bottom: 0;
+         padding-left: 30px;
+-        padding-right: 30px;
++        padding-right: 30px
+     }
++
+     .secc-7-MOBILE span.VER-MS {
+-        font-size: 20px!important;
+-        line-height: 2!important
++        font-size: 20px !important;
++        line-height: 2 !important
+     }
++
+     .secc-7-perrito-dudos {
+-        max-width: 100%!important
+-    } 
+-     .mito-perrito {
+-        max-width: 70%!important
+-    } 
+-    footer .foo-secc-1, .foo-secc-2, .foo-secc-3 {
+-        padding-top: 5%!important;
+-        text-align: center!important
++        max-width: 100% !important
++    }
++
++    .mito-perrito {
++        max-width: 70% !important
++    }
++
++    .foo-secc-2,
++    .foo-secc-3,
++    footer .foo-secc-1 {
++        padding-top: 5% !important;
++        text-align: center !important
+     }
++
+     footer p {
+-        font-family: 'Open Sans'!important;
+-        font-size: 12px!important;
+-        font-weight: normal!important;
+-        font-style: normal!important;
+-        font-stretch: normal!important;
+-        line-height: normal!important;
+-        letter-spacing: normal!important;
+-        color: #ffffff!important
++        font-family: 'Open Sans' !important;
++        font-size: 12px !important;
++        font-weight: 400 !important;
++        font-style: normal !important;
++        font-stretch: normal !important;
++        line-height: normal !important;
++        letter-spacing: normal !important;
++        color: #fff !important
+     }
++
+     .secc-1-head {
+-        font-family: 'Open Sans'!important;
+-        font-size: 12px!important;
+-        font-weight: bold!important;
+-        font-style: normal!important;
+-        font-stretch: normal!important;
+-        line-height: normal!important;
+-        letter-spacing: normal!important;
+-        color: #ffffff!important
++        font-family: 'Open Sans' !important;
++        font-size: 12px !important;
++        font-weight: 700 !important;
++        font-style: normal !important;
++        font-stretch: normal !important;
++        line-height: normal !important;
++        letter-spacing: normal !important;
++        color: #fff !important
+     }
++
+     .secc-1-sub-head {
+         font-family: 'Open Sans';
+-        font-size: 12px!important;
+-        font-weight: 600!important;
+-        font-style: normal!important;
+-        font-stretch: normal!important;
+-        line-height: normal!important;
+-        letter-spacing: normal!important;
+-        color: #ffffff!important
++        font-size: 12px !important;
++        font-weight: 600 !important;
++        font-style: normal !important;
++        font-stretch: normal !important;
++        line-height: normal !important;
++        letter-spacing: normal !important;
++        color: #fff !important
+     }
++
+     .secc-9-head {
+-        padding-left: 5%!important;
+-        padding-right: 5%!important
++        padding-left: 5% !important;
++        padding-right: 5% !important
+     }
++
+     .secc-9-text {
+-        padding-right: 10%!important;
+-        padding-left: 10%!important
++        padding-right: 10% !important;
++        padding-left: 10% !important
+     }
++
+     .secc-9-img-sex {
+-        max-width: 13%!important
++        max-width: 13% !important
+     }
++
+     .secc-9-div-2 {
+         position: relative;
+-        padding: 30px!important 
++        padding: 30px !important
+     }
++
+     section.secc-9 {
+-        padding-bottom: 43px!important
++        padding-bottom: 43px !important
+     }
++
+     section.secc-10 {
+-        
+-        padding-top: 43px!important;
+-        
+-    }
++        padding-top: 43px !important
++    }
++
+     .secc-10-text-fuente {
+-       font-size: 7.6px !important; 
++        font-size: 7.6px !important;
+         font-style: normal;
+         padding: 0
+-       
+     }
+ 
+     .secc-10-text {
+-        padding-right: 5%!important;
+-        padding-left: 5%!important;
++        padding-right: 5% !important;
++        padding-left: 5% !important;
+         margin-bottom: -50px !important;
+-        text-align: center !important;
+-
++        text-align: center !important
+     }
++
+     .secc-10-img-1 {
+         max-width: 65%
+     }
++
+     .secc-10-img-2 {
+         max-width: 80%
+     }
++
+     .secc-10-img-3 {
+         max-width: 110%
+     }
++
+     .secc10-kilos {
+         font-size: 15px;
+         line-height: 1
+     }
++
+     .secc-10-precio-kilo {
+         font-size: 13px
+     }
++
+     .secc10-text-head {
+         text-align: center
+     }
++
+     .secc-12-costo {
+-        font-size: 9.6px!important
++        font-size: 9.6px !important
+     }
++
+     .secc-14-head {
+-        padding-left: 3%!important;
+-        padding-right: 3%!important
++        padding-left: 3% !important;
++        padding-right: 3% !important
+     }
++
+     .secc-14-text {
+-        padding-left: 12%!important;
+-        padding-right: 12%!important
++        padding-left: 12% !important;
++        padding-right: 12% !important
+     }
+-    .secc-12-fuente  {
+-        font-size: 7.6px!important;
+-    }  
++
++    .secc-12-fuente {
++        font-size: 7.6px !important
++    }
+ 
+     .contact-text-head {
+-        padding-top: 0px!important
++        padding-top: 0 !important
+     }
++
+     .caja-texto {
+-        height: auto;
++        height: auto
+     }
++
+     .h-conta {
+-        height: auto;
++        height: auto
+     }
++
+     .mobile-pt {
+-        padding-top: 75px;
++        padding-top: 75px
+     }
+ }
++@media (max-width:990px) {
++    .logo-perro {
++        max-width: 100% !important;
++        position: relative !important;
++        top: 100px !important;
++        right: 0 !important
++    }
++    header {
++    padding-top: 100px;
++    padding-bottom: 100px!important;
++}
++}
+ @media (min-width:991px) {
++
+     .caja-texto {
+-        height: 430px;
++        height: 430px
+     }
++
+     .h-conta {
+-        height: 550px;
++        height: 550px
+     }
+-    .secc-6-map  {
++
++    .secc-6-map {
+         position: relative;
+         bottom: 230px;
+-        right:  0px;
+-        z-index: -1;
++        right: 0;
++        z-index: -1
+     }
+-     .secc-6-niveles-poblacion  {
++
++    .secc-6-niveles-poblacion {
+         position: relative;
+         bottom: 450px;
+-        left: 0;
++        left: 0
+     }
++
+     .secc-6 {
+-        margin-bottom: -200px;
+-    }
+-    .logo {
+-        top: 23%!important;
+-        left: 5%!important;
++        margin-bottom: -200px
+     }
+-}
+-@media (min-width:1200px) {
++
+     .logo {
+-        top: 20%!important;
++        padding-top: 0 !important
+     }
+ }
+ 
+-@media (max-width:992px) {
++@media (max-width:990px) {
+     .display-3 {
+         font-size: 3.2rem
+     }
++
+     .bag-menu-img {
+-        width: 110%!important;
+-        height: 100vh!important;
+-        background-image: url(../img/Pattern-azul.jpg)!important;
++        width: 110% !important;
++        height: 100vh !important;
++        background-image: url(../img/Pattern-azul.jpg) !important;
+         background-repeat: inherit;
+-        z-index: -1!important;
++        z-index: -1 !important;
+         position: fixed;
+         top: 0;
+         right: 0
+     }
++
+     #menu a {
+         font-family: arial;
+         text-decoration: none;
+-        color: rgb(29, 165, 183);
++        color: #1da5b7;
+         margin-right: 20px;
+         z-index: -1
+     }
++
+     .navbar-toggler:not(:disabled):not(.disabled) {
+-	    outline: none;
+-	}
++        outline: 0
++    }
++
+     .nav-link {
+-        color: #fff!important;
++        color: #fff !important;
+         padding: 20px;
+         text-decoration: none;
+         font-size: 26px;
+         display: block;
+-        transition: 0.3s;
+-        padding-left: 40px!important;
+-        font-weight: bold;
++        transition: .3s;
++        padding-left: 40px !important;
++        font-weight: 700;
+         text-transform: uppercase
+     }
++
+     .nav-item.active {
+         margin-top: 50px
+     }
++
+     .navbar-nav {
+         margin: 0 auto
+     }
++
+     .secc-14-head {
+-        margin-top: 30px;
++        margin-top: 30px
+     }
++
+     .logo {
+-        width: 60%!important;
+-        position: relative!important;
+-        top: 0!important;
+-        left: 0!important;
+-        padding-top: 125px
+-    }
+-    
+-}
+-@media (min-width:1600px) {
+-    .logo {
+-        top: 25%!important;
+-        left: 15%!important;
++        position: relative !important;
++        left: 3%
+     }
+ }
++
+ @media (max-width:368px) {
+     img.secc-12-balanza {
+         margin-top: 10%
+-}
++    }
+ }
++
+ @media (min-width:479px) and (max-width:767px) {
+     h6.secc-12-head {
+         height: 110px
+     }
++
+     .secc-12-p-mobile {
+-        padding-top: 14%!important;
+-        padding-bottom: 14%!important
++        padding-top: 14% !important;
++        padding-bottom: 14% !important
+     }
+ }
++
+ @media (min-width:769px) {
+     section.secc-9 {
+         padding-bottom: 0
+     }
++
+     section.secc-9 {
+         padding-bottom: 0
+     }
++
+     section.secc-10 {
+         padding-top: 100px
+     }
++
+     .img-fluid.secc-6-map {
+-        position: relative!important;
+-        bottom: 200px!important;
+-        left: 0px!important;
+-        z-index: -1!important
++        position: relative !important;
++        bottom: 200px !important;
++        left: 0 !important;
++        z-index: -1 !important
+     }
++
+     .secc-6-txt {
+-        padding-right: 0%!important
++        padding-right: 0 !important
+     }
++
+     .secc-6-lista-posic {
+-        position: relative!important;
+-        bottom: 400px!important;
+-        right: 0px!important
++        position: relative !important;
++        bottom: 400px !important;
++        right: 0 !important
+     }
++
+     .secc-6 {
+         padding-bottom: 0;
+         margin-bottom: -200px
+     }
++
+     .contact-text-head {
+-        padding-top: 150px!important
++        padding-top: 150px !important
+     }
+-
+ }
+ 
+ @media (min-width:769px) and (max-width:992px) {
+     .caja-texto {
+-        height: auto ;
++        height: auto
+     }
++
+     .h-conta {
+-        height: auto ;
++        height: auto
+     }
+ }
+ 
+@@ -1267,6 +1467,4 @@
+         padding-top: 10% !important;
+         padding-bottom: 10% !important
+     }
+-}
+-
+-
++}
+\ No newline at end of file

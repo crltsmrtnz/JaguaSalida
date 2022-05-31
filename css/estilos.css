@@ -164,7 +164,9 @@ img.logo-perro {
 .bg6 {
     background-color: #fff
 }
-
+.bg-chameleon {
+    background-color: #f1fafc!important;
+}
 .c1 {
     color: #1da5b7
 }

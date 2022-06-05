@@ -60,7 +60,6 @@ p.secc-10-precio-kilo {
     left: 10%;
     width: 100%;
     max-width: 300px;
-    padding-top: 100px
 }
 
 img.logo-perro {
@@ -947,7 +946,7 @@ a:active {
     }
 
     .logo {
-        padding-top: 25px
+        padding-top: 0
     }
 
 
@@ -957,14 +956,10 @@ a:active {
         padding-top: 70px !important
     }
 
-    header,
-    section {
-        padding-top: 50px !important;
-        padding-bottom: 50px !important
-    }
+
 
     .sabiasque {
-        padding-top: 50px
+        padding-top: 0
     }
 
     section .dato {
@@ -1291,9 +1286,7 @@ a:active {
         height: auto
     }
 
-    .mobile-pt {
-        padding-top: 75px
-    }
+
 }
 @media (max-width:990px) {
     .logo-perro {
